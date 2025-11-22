@@ -1,0 +1,64 @@
+
+{
+  "beautyCreator_mainTitle": "Beauty Photo Creator",
+  "beautyCreator_subtitle": "Upload a portrait and choose a concept to start",
+  "beautyCreator_uploaderCaption": "Upload Portrait Photo",
+  "beautyCreator_uploaderDescription": "Click the frame to upload a photo and start creating",
+  "beautyCreator_yourImageCaption": "Your Photo",
+  "beautyCreator_notesPlaceholder": "e.g., nude makeup, soft curly hair...",
+  "beautyCreator_createButton": "Create Photos",
+  "beautyCreator_regenPlaceholder": "e.g., add an earring, change lipstick color...",
+  "beautyCreator_uploaderCaptionStyle": "Upload Concept Photo",
+  "beautyCreator_uploaderDescriptionStyle": "Image with the style, lighting, and colors for reference",
+  "beautyCreator_styleReferenceCaption": "Concept Photo",
+  "beautyCreator_styleReferenceDescription": "Upload a reference image (optional) for the AI to analyze and apply its concept.",
+  "beautyCreator_missingImagesError": "Please upload a portrait photo to begin.",
+  "beautyCreator_selectIdeasTitle": "Choose {0} to {1} concepts to try",
+  "beautyCreator_selectedCount": "Selected: {0}/{1}",
+  "beautyCreator_maxIdeasError": "You can only select a maximum of {0} concepts.",
+  "beautyCreator_randomConcept": "Random",
+  "beautyCreator_analyzing": "Analyzing...",
+  "beautyCreator_analysisError": "Could not analyze the image. Please try again.",
+  "beautyCreator_randomButton": "Randomize",
+  "beautyCreator_chooseOtherIdeas": "Choose Other Concepts",
+  "beautyCreator_ideasByCategory": [
+    {
+      "category": "For Women",
+      "key": "female",
+      "ideas": [
+        "Studio Beauty",
+        "Natural Morning Light",
+        "Dreamy & Ethereal",
+        "High Fashion Editorial",
+        "Korean Glass Skin",
+        "Classic Hollywood",
+        "Beauty with Flowers",
+        "Delicate Jewelry",
+        "Artistic Portrait"
+      ]
+    },
+    {
+      "category": "For Men",
+      "key": "male",
+      "ideas": [
+        "Dapper Gentleman",
+        "Outdoor Portrait",
+        "Cinematic & Moody",
+        "Modern Minimalist",
+        "80s Hong Kong Actor",
+        "Successful Entrepreneur"
+      ]
+    },
+    {
+      "category": "General Styles",
+      "key": "general",
+      "ideas": [
+        "Black & White Portrait",
+        "Golden Hour Sunset",
+        "Photoshoot in the Rain",
+        "Beauty in Water",
+        "Oil Painting Style"
+      ]
+    }
+  ]
+}

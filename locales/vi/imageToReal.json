@@ -1,0 +1,12 @@
+{
+  "imageToReal_mainTitle": "Chuyển Đổi Sang Ảnh Thật",
+  "imageToReal_subtitle": "Tải lên bất kỳ ảnh nào để biến nó thành ảnh thật",
+  "imageToReal_uploaderCaption": "Tải ảnh gốc",
+  "imageToReal_uploaderDescription": "Nhấn vào khung ảnh để tải lên ảnh vẽ, 3D, hoạt hình...",
+  "imageToReal_faithfulnessLabel": "Mức độ giữ nét",
+  "imageToReal_notesPlaceholder": "Ví dụ: phong cách ảnh chụp buổi tối, ánh sáng neon...",
+  "imageToReal_creating": "Đang chuyển đổi...",
+  "imageToReal_createButton": "Chuyển thành ảnh thật",
+  "imageToReal_resultCaption": "Ảnh thật",
+  "imageToReal_regenPlaceholder": "Ví dụ: thêm hiệu ứng bokeh, chụp bằng ống kính góc rộng..."
+}

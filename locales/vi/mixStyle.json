@@ -1,0 +1,16 @@
+{
+  "mixStyle_mainTitle": "Trộn Phong Cách Ảnh",
+  "mixStyle_subtitle": "Tải ảnh nội dung và ảnh phong cách để bắt đầu",
+  "mixStyle_uploaderCaptionContent": "Ảnh nội dung",
+  "mixStyle_uploaderDescriptionContent": "Ảnh chứa chủ thể và bố cục chính",
+  "mixStyle_uploaderCaptionStyle": "Ảnh phong cách",
+  "mixStyle_uploaderDescriptionStyle": "Ảnh chứa màu sắc, kết cấu để tham khảo",
+  "mixStyle_contentCaption": "Ảnh nội dung",
+  "mixStyle_styleCaption": "Ảnh phong cách",
+  "mixStyle_strengthLabel": "Mức độ ảnh hưởng Style",
+  "mixStyle_notesPlaceholder": "Ví dụ: nhấn mạnh vào màu đỏ, giữ lại chi tiết mắt...",
+  "mixStyle_creating": "Đang trộn...",
+  "mixStyle_createButton": "Trộn Style",
+  "mixStyle_regenPlaceholder": "Ví dụ: làm cho màu sắc tươi hơn, ít chi tiết hơn...",
+  "mixStyle_finalPromptTitle": "Prompt cuối cùng"
+}

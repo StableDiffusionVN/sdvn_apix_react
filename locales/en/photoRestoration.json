@@ -1,0 +1,25 @@
+
+{
+  "photoRestoration_mainTitle": "Old Photo Restoration",
+  "photoRestoration_subtitle": "Upload a photo to restore to begin",
+  "photoRestoration_uploaderCaption": "Upload old photo",
+  "photoRestoration_uploaderDescription": "Click the frame to upload a photo for restoration/repair",
+  "photoRestoration_additionalInfoTitle": "Additional Information",
+  "photoRestoration_additionalInfoSubtitle": "Providing more info helps the AI restore the photo more accurately.",
+  "photoRestoration_photoTypeLabel": "Photo Type",
+  "photoRestoration_genderLabel": "Gender",
+  "photoRestoration_nationalityLabel": "Nationality",
+  "photoRestoration_nationalityPlaceholder": "Search or leave empty for Auto...",
+  "photoRestoration_ageLabel": "Age",
+  "photoRestoration_notesLabel": "Notes",
+  "photoRestoration_notesPlaceholder": "e.g., restore the color of the blue ao dai...",
+  "photoRestoration_removeStainsLabel": "Remove stains, spots",
+  "photoRestoration_colorizeRgb": "RGB Colorization",
+  "photoRestoration_creating": "Restoring...",
+  "photoRestoration_createButton": "Restore Photo",
+  "photoRestoration_resultCaption": "Restored Photo",
+  "photoRestoration_regenDescription": "Add notes to improve the restored photo",
+  "photoRestoration_regenPlaceholder": "e.g., make the skin tone brighter...",
+  "photoRestoration_photoTypeOptions": ["Portrait", "Landscape", "Family", "Event", "Architecture", "Daily Life"],
+  "photoRestoration_genderOptions": ["Auto", "Male", "Female", "Multiple people"]
+}

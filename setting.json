@@ -1,0 +1,238 @@
+{
+  "enableWebcam": false,
+  "enableImageMetadata": false,
+  "home": {
+    "mainTitleKey": "home_mainTitle",
+    "subtitleKey": "home_subtitle",
+    "useSmartTitleWrapping": false,
+    "smartTitleWrapWords": 2
+  },
+  "apps": [
+    {
+      "id": "free-generation",
+      "titleKey": "app_free-generation_title",
+      "descriptionKey": "app_free-generation_description",
+      "icon": "🚀",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/free-gen-1.jpg"
+    },
+    {
+      "id": "image-interpolation",
+      "titleKey": "app_image-interpolation_title",
+      "descriptionKey": "app_image-interpolation_description",
+      "icon": "⚗️",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/noi-suy.jpg"
+    },
+    {
+      "id": "architecture-ideator",
+      "titleKey": "app_architecture-ideator_title",
+      "descriptionKey": "app_architecture-ideator_description",
+      "icon": "🏛️",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/kientruc-2.jpeg"
+    },
+    {
+      "id": "dress-the-model",
+      "titleKey": "app_dress-the-model_title",
+      "descriptionKey": "app_dress-the-model_description",
+      "icon": "👗",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/thoitrang.jpg"
+    },
+    {
+      "id": "photo-restoration",
+      "titleKey": "app_photo-restoration_title",
+      "descriptionKey": "app_photo-restoration_description",
+      "icon": "🖼️",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/phuc-che.jpg"
+    },
+    {
+      "id": "swap-style",
+      "titleKey": "app_swap-style_title",
+      "descriptionKey": "app_swap-style_description",
+      "icon": "🎨",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/swap-style-1.jpg"
+    },
+    {
+      "id": "baby-photo-creator",
+      "titleKey": "app_baby-photo-creator_title",
+      "descriptionKey": "app_baby-photo-creator_description",
+      "icon": "👶",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/baby.jpeg"
+    },
+    {
+      "id": "avatar-creator",
+      "titleKey": "app_avatar-creator_title",
+      "descriptionKey": "app_avatar-creator_description",
+      "icon": "🇻🇳",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/yeu-nuoc.jpeg"
+    },
+    {
+      "id": "beauty-creator",
+      "titleKey": "app_beauty-creator_title",
+      "descriptionKey": "app_beauty-creator_description",
+      "icon": "💄",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/beauty.jpeg"
+    },
+    {
+      "id": "entrepreneur-creator",
+      "titleKey": "app_entrepreneur-creator_title",
+      "descriptionKey": "app_entrepreneur-creator_description",
+      "icon": "💼",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/doanhnhan.jpeg"
+    },
+    {
+      "id": "toy-model-creator",
+      "titleKey": "app_toy-model-creator_title",
+      "descriptionKey": "app_toy-model-creator_description",
+      "icon": "🤖",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/figure.jpeg"
+    },
+    {
+      "id": "mid-autumn-creator",
+      "titleKey": "app_mid-autumn-creator_title",
+      "descriptionKey": "app_mid-autumn-creator_description",
+      "icon": "🌕",
+      "supportsCanvasPreset": true,
+      "previewImageUrl": "https://trainlora.vn/wp-content/uploads/2025/10/trungthu.jpeg"
+    }
+  ],
+  "avatarCreator": {
+    "mainTitleKey": "avatarCreator_mainTitle",
+    "subtitleKey": "avatarCreator_subtitle",
+    "minIdeas": 1,
+    "maxIdeas": 6,
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaptionKey": "avatarCreator_uploaderCaption",
+    "uploaderDescriptionKey": "avatarCreator_uploaderDescription",
+    "uploaderCaptionStyleKey": "common_uploaderCaptionStyle",
+    "uploaderDescriptionStyleKey": "common_uploaderDescriptionStyle"
+  },
+  "babyPhotoCreator": {
+    "mainTitleKey": "babyPhotoCreator_mainTitle",
+    "subtitleKey": "babyPhotoCreator_subtitle",
+    "minIdeas": 1,
+    "maxIdeas": 6,
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaptionKey": "babyPhotoCreator_uploaderCaption",
+    "uploaderDescriptionKey": "babyPhotoCreator_uploaderDescription",
+    "uploaderCaptionStyleKey": "common_uploaderCaptionStyle",
+    "uploaderDescriptionStyleKey": "common_uploaderDescriptionStyle"
+  },
+  "beautyCreator": {
+    "mainTitleKey": "beautyCreator_mainTitle",
+    "subtitleKey": "beautyCreator_subtitle",
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "minIdeas": 1,
+    "maxIdeas": 6,
+    "uploaderCaptionKey": "beautyCreator_uploaderCaption",
+    "uploaderDescriptionKey": "beautyCreator_uploaderDescription",
+    "uploaderCaptionStyleKey": "beautyCreator_uploaderCaptionStyle",
+    "uploaderDescriptionStyleKey": "beautyCreator_uploaderDescriptionStyle"
+  },
+  "midAutumnCreator": {
+    "mainTitleKey": "midAutumnCreator_mainTitle",
+    "subtitleKey": "midAutumnCreator_subtitle",
+    "minIdeas": 1,
+    "maxIdeas": 6,
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaptionKey": "midAutumnCreator_uploaderCaption",
+    "uploaderDescriptionKey": "midAutumnCreator_uploaderDescription",
+    "uploaderCaptionStyleKey": "common_uploaderCaptionStyle",
+    "uploaderDescriptionStyleKey": "common_uploaderDescriptionStyle"
+  },
+  "entrepreneurCreator": {
+    "mainTitleKey": "entrepreneurCreator_mainTitle",
+    "subtitleKey": "entrepreneurCreator_subtitle",
+    "minIdeas": 1,
+    "maxIdeas": 6,
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaptionKey": "entrepreneurCreator_uploaderCaption",
+    "uploaderDescriptionKey": "entrepreneurCreator_uploaderDescription",
+    "uploaderCaptionStyleKey": "common_uploaderCaptionStyle",
+    "uploaderDescriptionStyleKey": "common_uploaderDescriptionStyle"
+  },
+  "architectureIdeator": {
+    "mainTitleKey": "architectureIdeator_mainTitle",
+    "subtitleKey": "architectureIdeator_subtitle",
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaptionKey": "architectureIdeator_uploaderCaption",
+    "uploaderDescriptionKey": "architectureIdeator_uploaderDescription"
+  },
+  "dressTheModel": {
+    "mainTitleKey": "dressTheModel_mainTitle",
+    "subtitleKey": "dressTheModel_subtitle",
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaptionModelKey": "dressTheModel_uploaderCaptionModel",
+    "uploaderDescriptionModelKey": "dressTheModel_uploaderDescriptionModel",
+    "uploaderCaptionClothingKey": "dressTheModel_uploaderCaptionClothing",
+    "uploaderDescriptionClothingKey": "dressTheModel_uploaderDescriptionClothing"
+  },
+  "photoRestoration": {
+    "mainTitleKey": "photoRestoration_mainTitle",
+    "subtitleKey": "photoRestoration_subtitle",
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaptionKey": "photoRestoration_uploaderCaption",
+    "uploaderDescriptionKey": "photoRestoration_uploaderDescription"
+  },
+  "swapStyle": {
+    "mainTitleKey": "swapStyle_mainTitle",
+    "subtitleKey": "swapStyle_subtitle",
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 3,
+    "uploaderCaptionContentKey": "swapStyle_uploaderCaptionContent",
+    "uploaderDescriptionContentKey": "swapStyle_uploaderDescriptionContent",
+    "uploaderCaptionStyleKey": "swapStyle_uploaderCaptionStyle",
+    "uploaderDescriptionStyleKey": "swapStyle_uploaderDescriptionStyle"
+  },
+  "freeGeneration": {
+    "mainTitleKey": "freeGeneration_mainTitle",
+    "subtitleKey": "freeGeneration_subtitle",
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaption1Key": "freeGeneration_uploaderCaption1",
+    "uploaderDescription1Key": "freeGeneration_uploaderDescription1",
+    "uploaderCaption2Key": "freeGeneration_uploaderCaption2",
+    "uploaderDescription2Key": "freeGeneration_uploaderDescription2",
+    "uploaderCaption3Key": "freeGeneration_uploaderCaption3",
+    "uploaderDescription3Key": "freeGeneration_uploaderDescription3",
+    "uploaderCaption4Key": "freeGeneration_uploaderCaption4",
+    "uploaderDescription4Key": "freeGeneration_uploaderDescription4"
+  },
+  "toyModelCreator": {
+    "mainTitleKey": "toyModelCreator_mainTitle",
+    "subtitleKey": "toyModelCreator_subtitle",
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 1,
+    "uploaderCaptionKey": "toyModelCreator_uploaderCaption",
+    "uploaderDescriptionKey": "toyModelCreator_uploaderDescription"
+  },
+  "imageInterpolation": {
+    "mainTitleKey": "imageInterpolation_mainTitle",
+    "subtitleKey": "imageInterpolation_subtitle",
+    "useSmartTitleWrapping": true,
+    "smartTitleWrapWords": 2,
+    "uploaderCaptionInputKey": "imageInterpolation_uploaderCaptionInput",
+    "uploaderDescriptionInputKey": "imageInterpolation_uploaderDescriptionInput",
+    "uploaderCaptionOutputKey": "imageInterpolation_uploaderCaptionOutput",
+    "uploaderDescriptionOutputKey": "imageInterpolation_uploaderDescriptionOutput",
+    "uploaderCaptionReferenceKey": "imageInterpolation_uploaderCaptionReference",
+    "uploaderDescriptionReferenceKey": "imageInterpolation_uploaderDescriptionReference"
+  }
+}

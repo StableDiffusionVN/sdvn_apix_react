@@ -1,0 +1,16 @@
+{
+  "mixStyle_mainTitle": "Mix Image Styles",
+  "mixStyle_subtitle": "Upload a content photo and a style photo to start",
+  "mixStyle_uploaderCaptionContent": "Content image",
+  "mixStyle_uploaderDescriptionContent": "Image containing the main subject and composition",
+  "mixStyle_uploaderCaptionStyle": "Style image",
+  "mixStyle_uploaderDescriptionStyle": "Image containing colors and textures for reference",
+  "mixStyle_contentCaption": "Content Image",
+  "mixStyle_styleCaption": "Style Image",
+  "mixStyle_strengthLabel": "Style Strength",
+  "mixStyle_notesPlaceholder": "e.g., emphasize red, keep eye details...",
+  "mixStyle_creating": "Mixing...",
+  "mixStyle_createButton": "Mix Style",
+  "mixStyle_regenPlaceholder": "e.g., make colors brighter, fewer details...",
+  "mixStyle_finalPromptTitle": "Final Prompt"
+}

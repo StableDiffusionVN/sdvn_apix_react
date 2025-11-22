@@ -1,0 +1,23 @@
+{
+  "dressTheModel_mainTitle": "Mặc Trang Phục Cho Mẫu",
+  "dressTheModel_subtitle": "Tải ảnh người mẫu và trang phục để bắt đầu",
+  "dressTheModel_uploaderCaptionModel": "Tải ảnh người mẫu",
+  "dressTheModel_uploaderDescriptionModel": "Ảnh chân dung hoặc toàn thân, rõ mặt",
+  "dressTheModel_uploaderCaptionClothing": "Tải ảnh trang phục",
+  "dressTheModel_uploaderDescriptionClothing": "Ảnh sản phẩm rõ ràng, chính diện",
+  "dressTheModel_modelCaption": "Người mẫu",
+  "dressTheModel_clothingCaption": "Trang phục",
+  "dressTheModel_backgroundLabel": "Bối cảnh",
+  "dressTheModel_backgroundPlaceholder": "Tìm hoặc nhập bối cảnh...",
+  "dressTheModel_poseLabel": "Tư thế",
+  "dressTheModel_posePlaceholder": "Tìm hoặc nhập tư thế...",
+  "dressTheModel_styleLabel": "Phong cách ảnh",
+  "dressTheModel_stylePlaceholder": "Tìm hoặc nhập phong cách...",
+  "dressTheModel_notesPlaceholder": "Ví dụ: thêm phụ kiện vòng cổ, ánh sáng ban đêm...",
+  "dressTheModel_creating": "Đang thử đồ...",
+  "dressTheModel_createButton": "Thử đồ",
+  "dressTheModel_regenPlaceholder": "Ví dụ: thay đổi kiểu tóc, thêm một chiếc túi xách...",
+  "dressTheModel_backgroundOptions": ["Tự động", "Giữ nguyên bối cảnh gốc", "Studio (đơn sắc, xám, trắng)", "Đường phố Paris", "Đường phố Tokyo ban đêm", "Đường phố New York", "Thiên nhiên (bãi biển, rừng cây, núi non)", "Nội thất sang trọng (khách sạn, biệt thự)", "Sự kiện (thảm đỏ, sàn diễn thời trang)", "Bối cảnh nghệ thuật (abstract, gradient)", "Quán cà phê ấm cúng", "Thư viện cổ kính", "Khu vườn thượng uyển", "Sân thượng thành phố lúc hoàng hôn", "Hẻm nhỏ graffiti", "Bên trong một viện bảo tàng nghệ thuật", "Lâu đài cổ tích", "Khu chợ địa phương sầm uất", "Cánh đồng hoa oải hương", "Bến du thuyền sang trọng", "Ga tàu hỏa cổ điển", "Loft công nghiệp (Industrial loft)"],
+  "dressTheModel_poseOptions": ["Tự động", "Giữ nguyên tư thế gốc", "Đứng thẳng (chuyên nghiệp, lookbook)", "Tạo dáng high-fashion (ấn tượng, nghệ thuật)", "Ngồi (trên ghế, bậc thang, sofa)", "Đi bộ (tự nhiên, sải bước trên phố)", "Chuyển động (xoay người, nhảy múa)", "Dựa vào tường", "Nhìn qua vai", "Tay trong túi quần", "Chân bắt chéo", "Cúi người", "Nằm trên sàn/cỏ", "Chạy/Nhảy", "Tạo dáng hành động (action pose)", "Tương tác với phụ kiện (cầm túi, đội mũ)", "Tư thế yoga/thiền", "Cười rạng rỡ", "Biểu cảm suy tư", "Chống hông", "Giơ tay lên trời"],
+  "dressTheModel_photoStyleOptions": ["Tự động", "Ảnh bìa tạp chí (Vogue, Harper's Bazaar)", "Ảnh lookbook sản phẩm", "Chân dung cận cảnh", "Ảnh chụp đường phố (Street style)", "Phong cách phim điện ảnh (Cinematic)", "Ảnh chụp tự nhiên (Candid)", "Ảnh chụp bằng máy phim (35mm film grain)", "Ảnh Polaroid", "Ảnh đen trắng cổ điển", "Ảnh high-key (sáng, ít bóng)", "Ảnh low-key (tối, tương phản cao)", "Góc máy Hà Lan (Dutch angle)", "Ảnh mắt cá (Fisheye lens)", "Chồng ảnh (Double exposure)", "Phong cách Lomography (màu sắc rực rỡ, vignette)", "Chụp từ góc thấp", "Chụp từ góc cao (bird's eye view)", "Chuyển động mờ (Motion blur)", "Chân dung siêu thực (Surreal portrait)", "Ảnh có vệt sáng (Light leaks)"]
+}

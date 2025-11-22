@@ -1,0 +1,24 @@
+{
+  "version": "aPix v1.10 [081025]",
+  "developer": {
+    "name": "Phạm Hưng",
+    "url": "https://www.facebook.com/phamhungd/"
+  },
+  "notice": {
+    "prefix": "Ứng dụng được cung cấp miễn phí tại ",
+    "linkText": "sdvn.vn",
+    "linkUrl": "http://sdvn.vn/",
+    "suffix": ", không sao chép - lợi dung để thương mại hoá dưới mọi hình thức"
+  },
+  "community": {
+    "prefix": "Tìm hiểu thêm và tham gia ",
+    "linkText": "Cộng đồng AI Art Việt Nam",
+    "linkUrl": "https://www.facebook.com/groups/stablediffusion.vn"
+  },
+  "latestUpdate": "🔥 🔥 Cập nhật hỗ trợ v3 (Model Banana Pro và Gemini v3 Pro) - Yêu cầu bật khoá API có phí để sử dụng",
+  "videoTutorial": {
+    "prefix": "💡 ",
+    "linkText": "Video hướng dẫn",
+    "linkUrl": "https://youtu.be/6OdTbtyzpKo"
+  }
+}

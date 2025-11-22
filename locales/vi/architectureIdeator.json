@@ -1,0 +1,51 @@
+
+{
+  "architectureIdeator_mainTitle": "Lên ý tưởng kiến trúc",
+  "architectureIdeator_subtitle": "Biến phác thảo của bạn thành hiện thực",
+  "architectureIdeator_uploaderCaption": "Tải ảnh phác thảo",
+  "architectureIdeator_uploaderDescription": "Nhấn vào khung ảnh để tải lên bản vẽ, hoặc ảnh 3D",
+  "architectureIdeator_sketchCaption": "Ảnh phác thảo",
+  "architectureIdeator_optionsTitle": "Tùy chỉnh ý tưởng",
+  "architectureIdeator_contextLabel": "Bối cảnh",
+  "architectureIdeator_contextPlaceholder": "Tìm hoặc nhập bối cảnh...",
+  "architectureIdeator_styleLabel": "Phong cách kiến trúc",
+  "architectureIdeator_stylePlaceholder": "Tìm hoặc nhập phong cách...",
+  "architectureIdeator_colorLabel": "Tông màu",
+  "architectureIdeator_colorPlaceholder": "Tìm hoặc nhập tông màu...",
+  "architectureIdeator_lightingLabel": "Ánh sáng",
+  "architectureIdeator_lightingPlaceholder": "Tìm hoặc nhập ánh sáng...",
+  "architectureIdeator_notesLabel": "Ghi chú bổ sung",
+  "architectureIdeator_notesPlaceholder": "Ví dụ: thêm nhiều cây xanh, vật liệu kính...",
+  "architectureIdeator_createButton": "Tạo ảnh",
+  "architectureIdeator_regenTitle": "Tinh chỉnh ảnh kiến trúc",
+  "architectureIdeator_regenDescription": "Thêm ghi chú để cải thiện ảnh",
+  "architectureIdeator_regenPlaceholder": "Ví dụ: thêm hồ bơi, vật liệu bằng gỗ, ánh sáng ban đêm...",
+  "architectureIdeator_styleReferenceCaption": "Ảnh tham chiếu phong cách",
+  "architectureIdeator_styleReferenceDescription": "Tải lên ảnh tham chiếu (tùy chọn) để AI tự động phân tích và áp dụng phong cách.",
+  "architectureIdeator_styleReferenceActive": "Đang sử dụng phong cách từ ảnh tham chiếu. Các tùy chọn bên dưới đã bị vô hiệu hóa.",
+  "architectureIdeator_contextOptions": [
+    "Tự động",
+    { "group": "Đô thị", "options": ["Đô thị hiện đại (Modern city)", "Khu công nghiệp (Industrial zone)", "Thành phố tương lai (Cyberpunk city)", "Đường phố London thời Victoria (Victorian London)", "Khu nhà ổ chuột Brazil (Brazilian favela)"] },
+    { "group": "Thiên nhiên", "options": ["Vùng quê yên tĩnh (Countryside)", "Ven biển (Coastal)", "Vùng núi (Mountainous)", "Sa mạc (Desert)", "Rừng rậm (Jungle)", "Vườn Nhật Bản (Japanese garden)", "Cảnh quan núi lửa (Volcanic landscape)"] },
+    { "group": "Khoa học viễn tưởng & Giả tưởng", "options": ["Không gian vũ trụ (Outer space)", "Thế giới thần tiên (Fairy tale world)", "Thành phố dưới nước (Underwater city)", "Thành phố trên mây (City on clouds)", "Khu di tích cổ đại (Ancient ruins)", "Trạm nghiên cứu Bắc Cực (Arctic station)", "Colony trên sao Hỏa (Mars colony)", "Vùng đất hoang tàn hậu tận thế (Post-apocalyptic wasteland)", "Làng Địa Trung Hải (Mediterranean village)"] }
+  ],
+  "architectureIdeator_styleOptions": [
+    "Tự động",
+    { "group": "Hiện đại", "options": ["Hiện đại (Modern)", "Tối giản (Minimalist)", "Brutalist", "Deconstructivism", "Bền vững (Sustainable)", "Hữu cơ (Biophilic/Organic)", "Tham số (Parametricism)", "Công nghiệp (Industrial)", "Nhà nông trại hiện đại (Modern Farmhouse)", "Tương lai (Futuristic)"] },
+    { "group": "Cổ điển & Lịch sử", "options": ["Đông Dương (Indochine)", "Cổ điển (Classical)", "Go-tic (Gothic)", "Art Deco"] },
+    { "group": "Theo chủ đề & Độc đáo", "options": ["Nhiệt đới (Tropical)", "Nhà gỗ (Cabin)", "Scandinavian", "Địa Trung Hải (Mediterranean)", "Steampunk", "Nhà trên cây (Treehouse)", "Kiến trúc hang động (Cave architecture)", "Nhà container (Container home)"] }
+  ],
+  "architectureIdeator_colorOptions": [
+    "Tự động",
+    { "group": "Nhiệt độ màu", "options": ["Tông màu ấm (Warm tones)", "Tông màu lạnh (Cool tones)", "Màu trung tính (Neutral colors)"] },
+    { "group": "Độ bão hòa & Tương phản", "options": ["Đơn sắc (Monochromatic)", "Tương phản cao (High contrast)", "Màu Pastel nhẹ nhàng (Soft pastels)", "Màu rực rỡ (Vibrant colors)"] },
+    { "group": "Bảng màu theo chủ đề", "options": ["Màu đất (Earthy tones)", "Màu đá quý (Jewel tones)", "Neonoir (Neon colors)", "Màu gỉ sét & kim loại (Rust & Metallic)", "Trắng và gỗ (White & Wood)", "Xám bê tông (Concrete gray)", "Xanh bạc hà & hồng san hô (Mint & Coral)", "Xanh navy & vàng đồng (Navy & Brass)", "Màu hoàng hôn (Sunset palette)", "Màu bình minh (Sunrise palette)", "Màu của đại dương (Oceanic colors)"] },
+    { "group": "Đặc biệt", "options": ["Sepia (Nâu đỏ)", "Đen trắng (Black & White)", "Màu cầu vồng (Rainbow)"] }
+  ],
+  "architectureIdeator_lightingOptions": [
+    "Tự động",
+    { "group": "Ánh sáng tự nhiên", "options": ["Ánh sáng ban ngày tự nhiên (Natural daylight)", "Bình minh/Hoàng hôn (Golden hour)", "Ngày u ám, ánh sáng dịu (Overcast, soft light)", "Nắng gắt, bóng đổ rõ (Harsh sun, hard shadows)"] },
+    { "group": "Ánh sáng nhân tạo", "options": ["Ánh sáng ban đêm (Night lighting)", "Ánh sáng Neon", "Ánh sáng sân khấu (Stage lighting)", "Ánh sáng từ đèn lồng (Lantern light)", "Ánh sáng studio (Studio lighting)", "Chiếu sáng từ dưới lên (Uplighting)"] },
+    { "group": "Kịch tính & Cách điệu", "options": ["Ánh sáng huyền ảo (Ethereal lighting)", "Ánh sáng thể tích (Volumetric rays)", "Ánh sáng lấp lánh (Twinkling lights)", "Ánh sáng lập lòe từ lửa (Flickering firelight)", "Ánh sáng phát quang sinh học (Bioluminescent glow)", "Phim noir (Film noir shadows)", "Cháy sáng (Overexposed)", "Tối và u ám (Dark and moody)", "Ánh sáng phản chiếu từ nước (Water reflection)", "Bóng đổ từ rèm cửa (Caustic shadows)"] }
+  ]
+}

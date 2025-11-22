@@ -1,0 +1,49 @@
+{
+  "babyPhotoCreator_mainTitle": "Tạo Ảnh Concept Cho Bé",
+  "babyPhotoCreator_subtitle": "Chọn ảnh của bé và ý tưởng để bắt đầu",
+  "babyPhotoCreator_uploaderCaption": "Tải ảnh của bé",
+  "babyPhotoCreator_uploaderDescription": "Nhấn vào khung ảnh để tải ảnh và bắt đầu sáng tạo",
+  "babyPhotoCreator_yourImageCaption": "Ảnh của bé",
+  "babyPhotoCreator_selectIdeasTitle": "Chọn từ {0} đến {1} concept bạn muốn thử",
+  "babyPhotoCreator_selectedCount": "Đã chọn: {0}/{1}",
+  "babyPhotoCreator_notesPlaceholder": "Ví dụ: tông màu pastel, thêm nhiều hoa...",
+  "babyPhotoCreator_selectAtLeast": "Chọn ít nhất {0} concept",
+  "babyPhotoCreator_createButton": "Tạo ảnh",
+  "babyPhotoCreator_chooseOtherIdeas": "Chọn concept khác",
+  "babyPhotoCreator_regenPlaceholder": "Ví dụ: thêm một chiếc nơ, bối cảnh là bầu trời...",
+  "babyPhotoCreator_maxIdeasError": "Bạn chỉ có thể chọn tối đa {0} concept.",
+  "babyPhotoCreator_ageEstimationError": "Không thể xác định độ tuổi của bé. Vui lòng thử lại.",
+  "babyPhotoCreator_randomConcept": "Ngẫu nhiên",
+  "babyPhotoCreator_estimatingAge": "Đang nhận diện tuổi...",
+  "babyPhotoCreator_autoAgeDetection": "Tự động theo tuổi",
+  "babyPhotoCreator_randomButton": "Ngẫu Nhiên",
+  "babyPhotoCreator_ideasByCategory": [
+    {
+        "category": "Tự động",
+        "key": "random",
+        "ideas": [
+            "Ngẫu nhiên"
+        ]
+    },
+    {
+        "category": "Sơ sinh (0-1 tuổi)",
+        "key": "newborn",
+        "ideas": [ "Thiên thần nhỏ đang ngủ trên mây", "Bé trong giỏ hoa", "Đầu bếp nhí", "Phi hành gia tí hon", "Chú ong nhỏ", "Thủy thủ nhí", "Nàng tiên cá bé bỏng", "Bé trong quả bí ngô", "Hoàng tử bé bỏng", "Công chúa bé bỏng", "Bé trong khu rừng cổ tích", "Bé làm nông dân", "Bé trong quả dưa hấu", "Thợ lặn nhí", "Chú thỏ con đáng yêu", "Gấu con ngủ đông", "Bé trong tách trà", "Nhà thám hiểm tí hon", "Siêu anh hùng nhí", "Nhạc công nhí", "Họa sĩ nhí", "Bé trong trang phục Tết", "Bé và những quả bóng bay", "Bé trong thư viện sách", "Vận động viên nhí", "Bé ôm gấu bông khổng lồ", "Bé trong quả trứng rồng", "Nhà soạn nhạc tí hon", "Bé cuộn trong lá sen", "Thợ làm bánh mì nhí", "Bé ngủ trên mặt trăng lưỡi liềm", "Chú lính chì dũng cảm", "Bé trong một bong bóng xà phòng khổng lồ", "DJ nhí với tai nghe", "Bé làm gốm Bát Tràng", "Chú sâu bướm nhỏ", "Bé trong một vỏ sò ngọc trai", "Vận động viên cử tạ nhí", "Bé ngủ trong một bông bồ công anh", "Nhà giả kim tí hon", "Bé trong trang phục áo dài Tết", "Chú nhím con xù lông", "Bé ngồi trên một cây nấm khổng lồ", "Thuyền trưởng tí hon trên con tàu giấy", "Bé trong một quả dâu tây", "Họa sĩ nhí với bảng màu", "Bé làm vườn ươm cây", "Chú chim cánh cụt bé bỏng", "Bé ngủ trong một đóa hướng dương", "Nhà leo núi tí hon", "Bé trong bộ đồ phi công cổ điển" ]
+    },
+    {
+        "category": "1-3 tuổi",
+        "key": "toddler",
+        "ideas": [ "Dạo chơi trong công viên khủng long", "Thám hiểm rừng xanh", "Cưỡi ngựa gỗ", "Tiệc trà với thú nhồi bông", "Lái xe ô tô đồ chơi", "Chơi đùa trên bãi biển", "Xây lâu đài cát", "Bé tập làm vườn", "Vui chơi ở nông trại", "Hóa thân thành sư tử", "Lạc vào xứ sở thần tiên", "Bé làm lính cứu hỏa", "Phi công nhí", "Bé đi cắm trại", "Vui đùa với bong bóng xà phòng", "Chơi trốn tìm", "Bé tập vẽ", "Bé và đoàn tàu đồ chơi", "Phiêu lưu trên con tàu cướp biển", "Bé làm bác sĩ", "Vui chơi trong nhà bóng", "Bé đi câu cá", "Nhà khoa học nhí", "Bé và những người bạn động vật", "Mùa hè ở hồ bơi", "Chơi trốn tìm trong rừng tre", "Thợ săn kho báu trên đảo hoang", "Lái một chiếc xích lô mini", "Biểu diễn xiếc trên dây", "Làm bạn với một chú robot", "Chèo thuyền thúng ở Hội An", "Nhà thám hiểm Bắc Cực", "Chăm sóc một vườn khủng long", "Điều khiển một dàn nhạc giao hưởng", "Hóa thân thành con chuồn chuồn", "Lạc vào thế giới kẹo ngọt", "Bé làm lính ngự lâm", "Tay đua xe đạp địa hình", "Bé đi dã ngoại trên khinh khí cầu", "Vui đùa với những chú đom đóm", "Hóa thân thành con tắc kè hoa", "Bé và chiếc diều sáo", "Khám phá một con tàu vũ trụ bị bỏ hoang", "Bé làm vua bếp", "Vui chơi trong một ngôi nhà trên cây", "Bé đi săn nấm trong rừng", "Nhà khí tượng học nhí", "Bé và những người bạn đom đóm", "Mùa thu nhặt lá vàng", "Xây dựng một thành phố bằng Lego" ]
+    },
+    {
+        "category": "3-5 tuổi",
+        "key": "preschool",
+        "ideas": [ "Hiệp sĩ dũng cảm và lâu đài", "Công chúa trong vườn hoa hồng", "Du hành vũ trụ", "Nhà khảo cổ học khám phá di tích", "Siêu anh hùng giải cứu thành phố", "Vũ công ballet", "Ngôi sao nhạc rock", "Đầu bếp làm pizza", "Vận động viên Olympic", "Nhà ảo thuật tài ba", "Đọc sách trong thư viện ma thuật", "Chăm sóc thú cưng", "Lớp học vui nhộn", "Bé làm cảnh sát", "Hóa thân thành nhân vật cổ tích", "Chơi các nhạc cụ dân tộc", "Học làm gốm", "Bé đi siêu thị", "Lễ hội hóa trang", "Tay đua F1 nhí", "Bé làm nhà tạo mẫu tóc", "Nhà phát minh nhí", "Học võ", "Chơi thả diều", "Khám phá thế giới dưới nước", "Hiệp sĩ và con rồng thân thiện", "Công chúa chiến binh", "Du hành vào trung tâm Trái Đất", "Nhà hải dương học khám phá san hô", "Siêu anh hùng với sức mạnh thiên nhiên", "Vũ công múa lân", "Ngôi sao nhạc pop K-Pop", "Đầu bếp làm sushi", "Vận động viên trượt băng nghệ thuật", "Nhà giả kim thuật với những lọ thuốc màu", "Đọc sách trên lưng một con rùa khổng lồ", "Chăm sóc một trung tâm cứu hộ động vật", "Lớp học làm robot", "Bé làm cảnh sát giao thông", "Hóa thân thành Thạch Sanh", "Chơi đàn tranh", "Họa sĩ vẽ tranh tường", "Bé đi tàu ngầm", "Lễ hội Halloween", "Tay đua thuyền kayak", "Bé làm nhà thiết kế game", "Nhà côn trùng học nhí", "Học làm thư pháp", "Chơi nhảy sạp", "Khám phá một khu vườn bí mật" ]
+    },
+    {
+        "category": "5-10 tuổi",
+        "key": "child",
+        "ideas": [ "Thám tử lừng danh", "Nhà khoa học điên rồ", "Điệp viên 007 nhí", "Nhà thám hiểm Ai Cập cổ đại", "Lập trình viên nhí", "Nhà làm phim Hollywood", "Ca sĩ trên sân khấu lớn", "Vận động viên trượt ván", "Cầu thủ bóng đá chuyên nghiệp", "Họa sĩ đường phố (graffiti)", "Nhà thiết kế thời trang", "Du hành xuyên thời gian", "Chơi cờ vua với người máy", "Nhà vô địch game e-sport", "Lớp học phép thuật Harry Potter", "Học làm bánh", "Nhà báo nhí", "Kỹ sư robot", "Chăm sóc vườn thú", "Leo núi", "Bé làm DJ", "Tham gia ban nhạc rock", "Vận động viên bóng rổ", "Nhà văn nhí", "Giáo viên tí hon", "Thám tử không gian", "Nhà thực vật học trong rừng Amazon", "Điệp viên công nghệ cao", "Nhà khảo cổ học tìm kiếm thành phố Atlantis", "CEO của một công ty khởi nghiệp", "Nhà làm phim tài liệu về động vật hoang dã", "Nhà soạn nhạc cho phim", "Vận động viên parkour", "Cầu thủ bóng rổ đường phố", "Họa sĩ vẽ truyện tranh manga", "Nhà thiết kế ô tô tương lai", "Người canh giữ ngọn hải đăng", "Chơi trong một ban nhạc jazz", "Nhà vô địch cờ vây", "Học viên tại học viện Ninja", "Đầu bếp sao Michelin", "Người dẫn chương trình TV", "Kỹ sư xây dựng cầu", "Chăm sóc một khu bảo tồn biển", "Vận động viên leo núi trong nhà", "Bé làm đạo diễn sân khấu", "Tham gia một ban nhạc indie", "Vận động viên đấu kiếm", "Nhà văn viết tiểu thuyết giả tưởng", "Người huấn luyện rồng" ]
+    }
+  ]
+}

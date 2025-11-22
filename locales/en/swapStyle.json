@@ -1,0 +1,22 @@
+
+{
+  "swapStyle_mainTitle": "Swap Image Style",
+  "swapStyle_subtitle": "Upload a photo and choose a style to transform it",
+  "swapStyle_uploaderCaptionContent": "Content Image",
+  "swapStyle_uploaderDescriptionContent": "Click the frame to upload the image to restyle",
+  "swapStyle_uploaderCaptionStyle": "Style Reference Image",
+  "swapStyle_uploaderDescriptionStyle": "Upload a reference image (optional) for the AI to apply its style.",
+  "swapStyle_contentCaption": "Content Image",
+  "swapStyle_styleLabel": "Style",
+  "swapStyle_stylePlaceholder": "Search or leave empty for Auto...",
+  "swapStyle_strengthLabel": "Style Strength",
+  "swapStyle_notesPlaceholder": "e.g., focus on the face, blue tones...",
+  "swapStyle_creating": "Transforming...",
+  "swapStyle_createButton": "Apply Style",
+  "swapStyle_autoStyleCaption": "Automatic Style",
+  "swapStyle_regenDescription": "Add notes to improve the stylized image",
+  "swapStyle_regenPlaceholder": "e.g., add more details, more vibrant colors...",
+  "swapStyle_styleReferenceActive": "Using style from reference image. Style selection is disabled.",
+  "swapStyle_realPhotoCaption": "Real Photo",
+  "swapStyle_convertToRealNote": "The 'Convert to Real Photo' mode may be inaccurate in some cases. It's recommended to use input images with realistic human proportions."
+}

@@ -1,0 +1,7 @@
+/node_modules
+.env.local
+/server/node_modules
+/server/gallery
+/server/history
+/server/data
+/server/uploads

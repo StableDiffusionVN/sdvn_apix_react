@@ -1,0 +1,64 @@
+
+{
+  "beautyCreator_mainTitle": "Tạo Ảnh Beauty",
+  "beautyCreator_subtitle": "Tải ảnh chân dung và chọn concept để bắt đầu",
+  "beautyCreator_uploaderCaption": "Tải ảnh chân dung",
+  "beautyCreator_uploaderDescription": "Nhấn vào khung ảnh để tải ảnh và bắt đầu sáng tạo",
+  "beautyCreator_yourImageCaption": "Ảnh của bạn",
+  "beautyCreator_notesPlaceholder": "Ví dụ: trang điểm tông nude, tóc xoăn nhẹ...",
+  "beautyCreator_createButton": "Tạo ảnh",
+  "beautyCreator_regenPlaceholder": "Ví dụ: thêm một bông hoa tai, thay đổi màu son...",
+  "beautyCreator_uploaderCaptionStyle": "Tải ảnh Concept",
+  "beautyCreator_uploaderDescriptionStyle": "Ảnh chứa phong cách, ánh sáng, màu sắc để tham khảo",
+  "beautyCreator_styleReferenceCaption": "Ảnh Concept",
+  "beautyCreator_styleReferenceDescription": "Tải lên ảnh tham chiếu (tùy chọn) để AI tự động phân tích và áp dụng concept.",
+  "beautyCreator_missingImagesError": "Vui lòng tải lên ảnh chân dung để bắt đầu.",
+  "beautyCreator_selectIdeasTitle": "Chọn từ {0} đến {1} concept bạn muốn thử",
+  "beautyCreator_selectedCount": "Đã chọn: {0}/{1}",
+  "beautyCreator_maxIdeasError": "Bạn chỉ có thể chọn tối đa {0} concept.",
+  "beautyCreator_randomConcept": "Ngẫu nhiên",
+  "beautyCreator_analyzing": "Đang phân tích...",
+  "beautyCreator_analysisError": "Không thể phân tích ảnh. Vui lòng thử lại.",
+  "beautyCreator_randomButton": "Ngẫu nhiên",
+  "beautyCreator_chooseOtherIdeas": "Chọn concept khác",
+  "beautyCreator_ideasByCategory": [
+    {
+      "category": "Dành cho Nữ",
+      "key": "female",
+      "ideas": [
+        "Vẻ đẹp Studio",
+        "Nắng Mai Tự nhiên",
+        "Mộng Mơ Kỳ Ảo",
+        "Thời trang cao cấp",
+        "Trong veo Hàn Quốc",
+        "Cổ điển Hollywood",
+        "Vẻ đẹp với hoa",
+        "Trang sức tinh tế",
+        "Chân dung nghệ thuật"
+      ]
+    },
+    {
+      "category": "Dành cho Nam",
+      "key": "male",
+      "ideas": [
+        "Quý Ông Lịch Lãm",
+        "Chân dung ngoài trời",
+        "Điện ảnh & Trầm lắng",
+        "Tối giản Hiện đại",
+        "Tài tử Hồng Kông 80s",
+        "Doanh nhân thành đạt"
+      ]
+    },
+    {
+      "category": "Phong cách chung",
+      "key": "general",
+      "ideas": [
+        "Chân dung Đen Trắng",
+        "Hoàng hôn vàng óng",
+        "Ảnh chụp dưới mưa",
+        "Vẻ đẹp trong nước",
+        "Tranh sơn dầu"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "accounts": [
+    {
+      "username": "sdvn.vn",
+      "password": "sdvn.vn"
+    },
+    {
+      "username": "any",
+      "password": "sdvn.vn"
+    }
+  ]
+}

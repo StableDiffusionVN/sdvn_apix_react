@@ -1,0 +1,89 @@
+{
+  "presets": [
+    {
+      "id": "default",
+      "name": {
+        "vi": "Mặc định",
+        "en": "Default"
+      },
+      "description": {
+        "vi": "Sử dụng prompt của bạn trực tiếp không qua xử lý.",
+        "en": "Use your prompt directly without processing."
+      },
+      "requiresImageContext": false,
+      "refine": false,
+      "promptTemplate": {
+        "vi": "{{userPrompt}}",
+        "en": "{{userPrompt}}"
+      }
+    },
+    {
+      "id": "architecture",
+      "name": {
+        "vi": "Kiến trúc",
+        "en": "Architecture"
+      },
+      "description": {
+        "vi": "Biến phác thảo hoặc ảnh 3D thành ảnh kiến trúc chân thực, giữ lại bố cục gốc.",
+        "en": "Turns sketches or 3D images into realistic architectural photos, preserving the original layout."
+      },
+      "requiresImageContext": true,
+      "refine": true,
+      "promptTemplate": {
+        "vi": "Chuyển đổi hình ảnh thành ảnh chụp kiến trúc chân thực, giữ lại bố cục và hình khối gốc.",
+        "en": "Transform the image into a realistic architectural photo, preserving the original layout and form."
+      }
+    },
+    {
+      "id": "photo-restoration",
+      "name": {
+        "vi": "Phục chế ảnh chân dung",
+        "en": "Portrait Restoration"
+      },
+      "description": {
+        "vi": "Giữ lại đặc điểm nhận dạng và phục hồi hư hỏng trên ảnh cũ.",
+        "en": "Keeps identifying features and restores damage on old photos."
+      },
+      "requiresImageContext": true,
+      "refine": true,
+      "promptTemplate": {
+        "vi": "Phục chế hình ảnh này. **Yêu cầu:** Giữ 100% khuôn mặt, sửa chữa hư hỏng, tăng độ nét và thêm màu tự nhiên.",
+        "en": "Restore this image. **Requirement:** Preserve 100% of the face, repair damage, enhance sharpness, and colorize naturally."
+      }
+    },
+    {
+      "id": "image-to-real",
+      "name": {
+        "vi": "Chuyển đổi ảnh thật",
+        "en": "Convert to Real"
+      },
+      "description": {
+        "vi": "Chuyển đổi ảnh vẽ/hoạt hình thành ảnh chụp. Ưu tiên độ 'giống thật' hơn là bám sát 100% đường nét gốc.",
+        "en": "Converts drawings/cartoons into hyper-realistic photos. Prioritizes 'realism' over 100% adherence to original lines."
+      },
+      "requiresImageContext": true,
+      "refine": true,
+      "promptTemplate": {
+        "vi": "Chuyển đổi hình ảnh thành một bức ảnh chân thực. **Ưu tiên:** Độ chân thực hơn là giữ lại 100% nét gốc.",
+        "en": "Transform the image into a hyper-realistic photo. **Priority:** Realism over 100% fidelity to the original lines."
+      }
+    },
+    {
+      "id": "product",
+      "name": {
+        "vi": "Sản phẩm",
+        "en": "Product Photography"
+      },
+      "description": {
+        "vi": "Tạo ảnh quảng cáo chuyên nghiệp cho sản phẩm của bạn.",
+        "en": "Create professional advertising photos for your product."
+      },
+      "requiresImageContext": true,
+      "refine": true,
+      "promptTemplate": {
+        "vi": "Tạo ảnh quảng cáo cho sản phẩm này. **Yêu cầu:** Giữ 100% sản phẩm gốc, tạo concept chuyên nghiệp (có thể có người mẫu).",
+        "en": "Create an advertisement photo for this product. **Requirement:** Preserve 100% of the original product, create a professional concept (models optional)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+
+
+{
+  "imageInterpolation_mainTitle": "Nội suy hình ảnh",
+  "imageInterpolation_subtitle": "Tải lên cặp ảnh và ảnh tham chiếu để bắt đầu",
+  "imageInterpolation_uploaderCaptionInput": "Ảnh Input",
+  "imageInterpolation_uploaderDescriptionInput": "Hình ảnh bắt đầu",
+  "imageInterpolation_uploaderCaptionOutput": "Ảnh Output",
+  "imageInterpolation_uploaderDescriptionOutput": "Hình ảnh mong muốn",
+  "imageInterpolation_uploaderCaptionReference": "Ảnh Tham chiếu",
+  "imageInterpolation_uploaderDescriptionReference": "Ảnh để áp dụng thay đổi (nếu bỏ trống, sẽ dùng ảnh Input)",
+  "imageInterpolation_inputChangedError": "Ảnh Input đã thay đổi. Vui lòng Phân tích lại.",
+  "imageInterpolation_outputChangedError": "Ảnh Output đã thay đổi. Vui lòng Phân tích lại.",
+  "imageInterpolation_analysisError": "Lỗi phân tích ảnh: {0}",
+  "imageInterpolation_analyzing": "Đang phân tích...",
+  "imageInterpolation_reanalyze": "Phân tích lại",
+  "imageInterpolation_analyze": "Phân tích sự biến đổi",
+  "imageInterpolation_analyzeGeneral": "Phân tích tổng quát",
+  "imageInterpolation_analyzeDeep": "Phân tích sâu",
+  "imageInterpolation_analyzeExpert": "Phân tích Chuyên gia",
+  "imageInterpolation_analyzingGeneral": "Đang phân tích...",
+  "imageInterpolation_analyzingDeep": "Đang phân tích sâu...",
+  "imageInterpolation_analyzingExpert": "Đang phân tích chuyên sâu...",
+  "imageInterpolation_generatedPromptTitle": "Prompt được tạo ra",
+  "imageInterpolation_mainPromptLabel": "Prompt chính",
+  "imageInterpolation_suggestionsTitle": "Gợi ý sáng tạo",
+  "imageInterpolation_addSuggestionTooltip": "Thêm gợi ý này vào ô ghi chú",
+  "imageInterpolation_customizeTitle": "Tùy chỉnh & Tạo ảnh",
+  "imageInterpolation_notesLabel": "Ghi chú (Tùy chỉnh Prompt)",
+  "imageInterpolation_notesPlaceholder": "Ví dụ: thay đổi tông màu thành xanh dương...",
+  "imageInterpolation_createButton": "Tạo ảnh",
+  "imageInterpolation_regenPlaceholder": "Ví dụ: thêm hiệu ứng ánh sáng..."
+}

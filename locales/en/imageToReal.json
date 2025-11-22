@@ -1,0 +1,12 @@
+{
+  "imageToReal_mainTitle": "Convert to Realistic Photo",
+  "imageToReal_subtitle": "Upload any image to turn it into a real photo",
+  "imageToReal_uploaderCaption": "Upload original image",
+  "imageToReal_uploaderDescription": "Click the frame to upload a drawing, 3D, cartoon...",
+  "imageToReal_faithfulnessLabel": "Fidelity Level",
+  "imageToReal_notesPlaceholder": "e.g., evening shot style, neon lights...",
+  "imageToReal_creating": "Converting...",
+  "imageToReal_createButton": "Convert to Real",
+  "imageToReal_resultCaption": "Realistic Photo",
+  "imageToReal_regenPlaceholder": "e.g., add bokeh effect, shot with a wide-angle lens..."
+}

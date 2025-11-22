@@ -1,0 +1,33 @@
+
+{
+  "avatarCreator_mainTitle": "Tạo Ảnh Yêu Nước",
+  "avatarCreator_subtitle": "Chọn ảnh và ý tưởng để bắt đầu",
+  "avatarCreator_uploaderCaption": "Tải ảnh của bạn",
+  "avatarCreator_uploaderDescription": "Nhấn vào khung ảnh để tải ảnh và bắt đầu sáng tạo",
+  "avatarCreator_yourImageCaption": "Ảnh của bạn",
+  "avatarCreator_selectIdeasTitle": "Chọn từ {0} đến {1} ý tưởng bạn muốn thử",
+  "avatarCreator_selectedCount": "Đã chọn: {0}/{1}",
+  "avatarCreator_notesPlaceholder": "Ví dụ: tông màu ấm, phong cách phim xưa...",
+  "avatarCreator_selectAtLeast": "Chọn ít nhất {0} ý tưởng",
+  "avatarCreator_createButton": "Tạo ảnh",
+  "avatarCreator_chooseOtherIdeas": "Chọn ý tưởng khác",
+  "avatarCreator_regenPlaceholder": "Ví dụ: thêm một bông hoa sen, mặc áo dài màu xanh...",
+  "avatarCreator_randomConcept": "Ngẫu nhiên",
+  "avatarCreator_analyzing": "Đang phân tích...",
+  "avatarCreator_analysisError": "Không thể phân tích ảnh. Vui lòng thử lại.",
+  "avatarCreator_autoAnalysis": "Tự động theo ảnh",
+  "avatarCreator_randomButton": "Ngẫu nhiên",
+  "avatarCreator_ideasByCategory": [
+    {
+        "category": "Khoảnh Khắc Tự Hào",
+        "ideas": [ "Tung bay tà áo dài và lá cờ đỏ", "Nụ cười rạng rỡ bên lá cờ Tổ quốc", "Chào cờ trang nghiêm ở Quảng trường Ba Đình", "Ánh mắt tự hào hướng về lá cờ", "Dạo bước trên con đường cờ hoa rực rỡ", "Tự tin check-in tại Cột cờ Lũng Cú", "Tay trong tay cùng người lính hải quân", "Vẻ đẹp kiêu hãnh trước Lăng Bác", "Giọt lệ hạnh phúc khi quốc ca vang lên", "Gửi gắm tình yêu nơi cột mốc Trường Sa", "Thiếu nữ với bó hoa sen và cờ đỏ", "Vẫy cao lá cờ chiến thắng", "Gia đình nhỏ bên lá cờ Tổ quốc", "Khoảnh khắc đời thường dưới bóng cờ", "Áo dài đỏ tung bay trên phố cổ" ]
+    },
+    { "category": "Biểu tượng & Văn hóa", "ideas": ["Áo dài đỏ sao vàng", "Bên cạnh hoa sen hồng", "Họa tiết trống đồng Đông Sơn", "Đội nón lá truyền thống", "Vẽ lá cờ đỏ sao vàng nhỏ trên má", "Cầm cành đào ngày Tết", "Bên cạnh cây mai vàng", "Áo dài trắng nữ sinh", "Múa lân sư rồng", "Chơi đàn T'rưng", "Thả đèn hoa đăng", "Nghệ nhân gốm Bát Tràng", "Vẻ đẹp thiếu nữ bên khung cửi", "Cầm lồng đèn Trung Thu", "Nghệ thuật múa rối nước"] },
+    { "category": "Lịch sử & Anh hùng", "ideas": ["Chiến sĩ Điện Biên Phủ", "Nữ tướng Hai Bà Trưng", "Vua Hùng dựng nước", "Thanh niên xung phong", "Chiến sĩ hải quân Trường Sa", "Anh bộ đội Cụ Hồ", "Du kích trong rừng", "Cô gái mở đường", "Tinh thần bất khuất thời Trần", "Hình tượng Thánh Gióng", "Nữ anh hùng Võ Thị Sáu", "Chân dung thời bao cấp", "Chiến sĩ giải phóng quân", "Dân công hỏa tuyến", "Người lính biên phòng"] },
+    { "category": "Phong cảnh & Địa danh", "ideas": ["Giữa ruộng bậc thang Sapa", "Trên thuyền ở Vịnh Hạ Long", "Đứng trước Hồ Gươm, cầu Thê Húc", "Khám phá hang Sơn Đoòng", "Cánh đồng lúa chín vàng", "Vẻ đẹp cao nguyên đá Hà Giang", "Hoàng hôn trên phá Tam Giang", "Biển xanh Phú Quốc", "Chèo thuyền ở Tràng An, Ninh Bình", "Đi giữa phố cổ Hội An", "Cột cờ Lũng Cú", "Dinh Độc Lập lịch sử", "Nhà thờ Đức Bà Sài Gòn", "Bên dòng sông Mekong", "Vẻ đẹp Đà Lạt mộng mơ"] },
+    { "category": "Ẩm thực & Đời sống", "ideas": ["Thưởng thức Phở Hà Nội", "Uống cà phê sữa đá Sài Gòn", "Gói bánh chưng ngày Tết", "Gánh hàng rong phố cổ", "Ăn bánh mì vỉa hè", "Không khí chợ nổi Cái Răng", "Làm nón lá", "Người nông dân trên đồng", "Ngư dân kéo lưới", "Gia đình sum vầy", "Bên xe máy Dream huyền thoại", "Uống trà đá vỉa hè", "Bữa cơm gia đình Việt", "Làm muối ở Hòn Khói", "Trồng cây cà phê Tây Nguyên"] },
+    { "category": "Nghệ thuật & Sáng tạo", "ideas": ["Phong cách tranh cổ động", "Phong cách tranh sơn mài", "Họa tiết gốm Chu Đậu", "Nét vẽ tranh Đông Hồ", "Ánh sáng từ đèn lồng Hội An", "Nghệ thuật thư pháp", "Họa tiết thổ cẩm Tây Bắc", "Phong cách ảnh phim xưa", "Nghệ thuật điêu khắc Chăm Pa", "Vẻ đẹp tranh lụa", "Phong cách Cyberpunk Sài Gòn", "Hòa mình vào dải ngân hà", "Họa tiết rồng thời Lý", "Ánh sáng neon hiện đại", "Phong cách Low-poly"] },
+    { "category": "Thể thao & Tự hào", "ideas": ["Cổ động viên bóng đá cuồng nhiệt", "Khoảnh khắc nâng cúp vàng", "Vận động viên SEA Games", "Tay đua xe đạp", "Võ sĩ Vovinam", "Cầu thủ bóng đá chuyên nghiệp", "Niềm vui chiến thắng", "Đi bão sau trận thắng", "Vận động viên điền kinh", "Tinh thần thể thao Olympic", "Tay vợt cầu lông", "Nữ vận động viên wushu", "Cờ đỏ trên khán đài", "Vận động viên bơi lội", "Huy chương vàng tự hào"] },
+    { "category": "Tương lai & Khoa học", "ideas": ["Phi hành gia cắm cờ Việt Nam", "Nhà khoa học trong phòng thí nghiệm", "Kỹ sư công nghệ tương lai", "Thành phố thông minh", "Nông nghiệp công nghệ cao", "Bác sĩ robot y tế", "Năng lượng mặt trời Việt Nam", "Khám phá đại dương", "Chuyên gia trí tuệ nhân tạo", "Kiến trúc sư công trình xanh"] }
+  ]
+}

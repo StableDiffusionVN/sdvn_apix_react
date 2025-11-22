@@ -1,0 +1,49 @@
+{
+  "babyPhotoCreator_mainTitle": "Baby Photo Creator",
+  "babyPhotoCreator_subtitle": "Choose a photo of your baby and an idea to start",
+  "babyPhotoCreator_uploaderCaption": "Upload Baby's Photo",
+  "babyPhotoCreator_uploaderDescription": "Click the frame to upload a photo and start creating",
+  "babyPhotoCreator_yourImageCaption": "Baby's Photo",
+  "babyPhotoCreator_selectIdeasTitle": "Choose {0} to {1} concepts to try",
+  "babyPhotoCreator_selectedCount": "Selected: {0}/{1}",
+  "babyPhotoCreator_notesPlaceholder": "e.g., pastel tones, add more flowers...",
+  "babyPhotoCreator_selectAtLeast": "Select at least {0} concept",
+  "babyPhotoCreator_createButton": "Create Photos",
+  "babyPhotoCreator_chooseOtherIdeas": "Choose Other Concepts",
+  "babyPhotoCreator_regenPlaceholder": "e.g., add a bow, the background is the sky...",
+  "babyPhotoCreator_maxIdeasError": "You can select a maximum of {0} concepts.",
+  "babyPhotoCreator_ageEstimationError": "Could not determine the baby's age. Please try again.",
+  "babyPhotoCreator_randomConcept": "Random",
+  "babyPhotoCreator_estimatingAge": "Detecting age...",
+  "babyPhotoCreator_autoAgeDetection": "Auto by Age",
+  "babyPhotoCreator_randomButton": "Randomize",
+  "babyPhotoCreator_ideasByCategory": [
+    {
+      "category": "Automatic",
+      "key": "random",
+      "ideas": [
+        "Random"
+      ]
+    },
+    {
+        "category": "Newborn (0-1 year)",
+        "key": "newborn",
+        "ideas": [ "Little angel sleeping on a cloud", "Baby in a flower basket", "Little chef", "Tiny astronaut", "Little bee", "Sailor baby", "Baby mermaid", "Baby in a pumpkin", "Little prince", "Little princess", "Baby in a fairy tale forest", "Baby farmer", "Baby in a watermelon", "Little diver", "Cute little bunny", "Hibernating bear cub", "Baby in a teacup", "Tiny explorer", "Baby superhero", "Little musician", "Little artist", "Baby in Tet holiday outfit", "Baby with balloons", "Baby in a library", "Little athlete", "Baby hugging a giant teddy bear", "Baby in a dragon egg", "Tiny composer", "Baby wrapped in a lotus leaf", "Little baker", "Baby sleeping on a crescent moon", "Brave tin soldier", "Baby in a giant soap bubble", "Baby DJ with headphones", "Baby Bat Trang ceramic artisan", "Little caterpillar", "Baby in a pearl oyster shell", "Little weightlifter", "Baby sleeping in a dandelion", "Tiny alchemist", "Baby in Tet Ao Dai outfit", "Spiky little hedgehog", "Baby sitting on a giant mushroom", "Tiny captain on a paper boat", "Baby in a strawberry", "Little painter with a palette", "Baby planting a sapling", "Little penguin", "Baby sleeping in a sunflower", "Tiny mountain climber", "Baby in a vintage pilot outfit" ]
+    },
+    {
+        "category": "1-3 years old",
+        "key": "toddler",
+        "ideas": [ "Playing in a dinosaur park", "Jungle exploration", "Riding a wooden horse", "Tea party with stuffed animals", "Driving a toy car", "Playing on the beach", "Building a sandcastle", "Gardening baby", "Fun on the farm", "Dressed as a lion", "Lost in wonderland", "Baby firefighter", "Little pilot", "Baby goes camping", "Playing with soap bubbles", "Playing hide and seek", "Baby learning to draw", "Baby and the toy train", "Adventure on a pirate ship", "Baby doctor", "Fun in a ball pit", "Baby goes fishing", "Little scientist", "Baby and animal friends", "Summer at the pool", "Hide-and-seek in a bamboo forest", "Treasure hunter on a deserted island", "Riding a mini cyclo", "Circus performer on a tightrope", "Befriending a friendly robot", "Rowing a basket boat in Hoi An", "Arctic explorer", "Tending to a dinosaur garden", "Conducting an orchestra", "Dressed as a dragonfly", "Lost in a candy land", "Little musketeer", "Mountain bike racer", "Picnic on a hot air balloon", "Playing with fireflies", "Dressed as a chameleon", "Baby with a kite flute", "Exploring an abandoned spaceship", "Master chef baby", "Playing in a treehouse", "Mushroom hunting in the forest", "Little meteorologist", "Baby and firefly friends", "Autumn leaf collecting", "Building a Lego city" ]
+    },
+    {
+        "category": "3-5 years old",
+        "key": "preschool",
+        "ideas": [ "Brave knight and castle", "Princess in a rose garden", "Space travel", "Archaeologist discovering ruins", "Superhero saving the city", "Ballet dancer", "Rock star", "Pizza chef", "Olympic athlete", "Talented magician", "Reading in a magic library", "Caring for pets", "Fun classroom", "Baby police officer", "Dressed as a fairy tale character", "Playing traditional instruments", "Learning pottery", "Baby goes shopping", "Costume party", "Little F1 racer", "Baby hairstylist", "Little inventor", "Learning martial arts", "Flying a kite", "Exploring the underwater world", "Knight and a friendly dragon", "Warrior princess", "Journey to the center of the Earth", "Marine biologist exploring corals", "Superhero with nature powers", "Lion dancer", "K-Pop star", "Sushi chef", "Figure skater", "Alchemist with colorful potions", "Reading on a giant turtle's back", "Caring for an animal rescue center", "Robotics class", "Traffic police officer", "Dressed as Thach Sanh (Vietnamese folk hero)", "Playing the Dan Tranh", "Mural artist", "Submarine ride", "Halloween festival", "Kayaking racer", "Little game designer", "Little entomologist", "Learning calligraphy", "Bamboo dancing", "Exploring a secret garden" ]
+    },
+    {
+        "category": "5-10 years old",
+        "key": "child",
+        "ideas": [ "Famous detective", "Mad scientist", "Little 007 agent", "Ancient Egypt explorer", "Little programmer", "Hollywood filmmaker", "Singer on a big stage", "Skateboarder", "Professional football player", "Street artist (graffiti)", "Fashion designer", "Time traveler", "Playing chess with a robot", "E-sport champion", "Harry Potter magic class", "Learning to bake", "Little journalist", "Robot engineer", "Zookeeper", "Mountain climbing", "Baby DJ", "In a rock band", "Basketball player", "Little writer", "Tiny teacher", "Space detective", "Botanist in the Amazon rainforest", "High-tech spy", "Archaeologist searching for Atlantis", "CEO of a startup company", "Wildlife documentary filmmaker", "Film score composer", "Parkour athlete", "Street basketball player", "Manga artist", "Future car designer", "Lighthouse keeper", "Playing in a jazz band", "Go champion", "Ninja academy trainee", "Michelin star chef", "TV host", "Bridge engineer", "Marine conservationist", "Indoor rock climber", "Stage director", "Joining an indie band", "Fencer", "Fantasy novelist", "Dragon trainer" ]
+    }
+  ]
+}

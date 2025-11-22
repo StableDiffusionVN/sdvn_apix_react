@@ -1,0 +1,23 @@
+{
+  "dressTheModel_mainTitle": "Dress The Model",
+  "dressTheModel_subtitle": "Upload model and clothing photos to start",
+  "dressTheModel_uploaderCaptionModel": "Upload model photo",
+  "dressTheModel_uploaderDescriptionModel": "Portrait or full-body, clear face",
+  "dressTheModel_uploaderCaptionClothing": "Upload clothing photo",
+  "dressTheModel_uploaderDescriptionClothing": "Clear, front-facing product shot",
+  "dressTheModel_modelCaption": "Model",
+  "dressTheModel_clothingCaption": "Clothing",
+  "dressTheModel_backgroundLabel": "Background",
+  "dressTheModel_backgroundPlaceholder": "Search or enter background...",
+  "dressTheModel_poseLabel": "Pose",
+  "dressTheModel_posePlaceholder": "Search or enter pose...",
+  "dressTheModel_styleLabel": "Photo Style",
+  "dressTheModel_stylePlaceholder": "Search or enter style...",
+  "dressTheModel_notesPlaceholder": "e.g., add a necklace, night lighting...",
+  "dressTheModel_creating": "Trying on...",
+  "dressTheModel_createButton": "Try On",
+  "dressTheModel_regenPlaceholder": "e.g., change the hairstyle, add a handbag...",
+  "dressTheModel_backgroundOptions": ["Auto", "Keep original background", "Studio (solid color, gray, white)", "Paris street", "Tokyo street at night", "New York street", "Nature (beach, forest, mountains)", "Luxury interior (hotel, villa)", "Event (red carpet, runway)", "Artistic background (abstract, gradient)", "Cozy coffee shop", "Ancient library", "Royal garden", "City rooftop at sunset", "Graffiti alley", "Inside an art museum", "Fairy tale castle", "Bustling local market", "Lavender field", "Luxury marina", "Classic train station", "Industrial loft"],
+  "dressTheModel_poseOptions": ["Auto", "Keep original pose", "Standing straight (professional, lookbook)", "High-fashion pose (dramatic, artistic)", "Sitting (on a chair, stairs, sofa)", "Walking (natural, strolling on the street)", "In motion (spinning, dancing)", "Leaning against a wall", "Looking over the shoulder", "Hands in pockets", "Legs crossed", "Bending over", "Lying on the floor/grass", "Running/Jumping", "Action pose", "Interacting with accessories (holding a bag, wearing a hat)", "Yoga/meditation pose", "Radiant smile", "Thoughtful expression", "Hand on hip", "Raising hands to the sky"],
+  "dressTheModel_photoStyleOptions": ["Auto", "Magazine cover (Vogue, Harper's Bazaar)", "Lookbook product shot", "Close-up portrait", "Street style", "Cinematic", "Candid", "35mm film grain", "Polaroid", "Classic black and white", "High-key (bright, low shadow)", "Low-key (dark, high contrast)", "Dutch angle", "Fisheye lens", "Double exposure", "Lomography style (vibrant colors, vignette)", "Low-angle shot", "Bird's eye view", "Motion blur", "Surreal portrait", "Light leaks"]
+}

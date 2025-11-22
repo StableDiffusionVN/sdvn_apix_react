@@ -1,0 +1,25 @@
+
+{
+  "photoRestoration_mainTitle": "Phục Chế Ảnh Cũ",
+  "photoRestoration_subtitle": "Tải lên bức ảnh cần phục chế để bắt đầu",
+  "photoRestoration_uploaderCaption": "Tải ảnh cũ",
+  "photoRestoration_uploaderDescription": "Nhấn vào khung ảnh để tải lên ảnh cần phục chế, sửa chữa",
+  "photoRestoration_additionalInfoTitle": "Thông tin bổ sung",
+  "photoRestoration_additionalInfoSubtitle": "Cung cấp thêm thông tin giúp AI phục chế ảnh chính xác hơn.",
+  "photoRestoration_photoTypeLabel": "Loại ảnh",
+  "photoRestoration_genderLabel": "Giới tính",
+  "photoRestoration_nationalityLabel": "Quốc tịch",
+  "photoRestoration_nationalityPlaceholder": "Tìm hoặc để trống cho Tự động...",
+  "photoRestoration_ageLabel": "Độ tuổi",
+  "photoRestoration_notesLabel": "Ghi chú",
+  "photoRestoration_notesPlaceholder": "Ví dụ: phục chế màu áo dài xanh...",
+  "photoRestoration_removeStainsLabel": "Xóa vết loang, ố",
+  "photoRestoration_colorizeRgb": "Đổ màu RGB",
+  "photoRestoration_creating": "Đang phục chế...",
+  "photoRestoration_createButton": "Phục chế ảnh",
+  "photoRestoration_resultCaption": "Ảnh đã phục chế",
+  "photoRestoration_regenDescription": "Thêm ghi chú để cải thiện ảnh phục chế",
+  "photoRestoration_regenPlaceholder": "Ví dụ: làm cho màu da sáng hơn...",
+  "photoRestoration_photoTypeOptions": ["Chân dung", "Phong cảnh", "Gia đình", "Sự kiện", "Kiến trúc", "Đời thường"],
+  "photoRestoration_genderOptions": ["Tự động", "Nam", "Nữ", "Nhiều người"]
+}

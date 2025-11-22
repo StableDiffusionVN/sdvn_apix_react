@@ -1,0 +1,33 @@
+
+{
+  "avatarCreator_mainTitle": "Patriotic Image Creator",
+  "avatarCreator_subtitle": "Choose a photo and ideas to start",
+  "avatarCreator_uploaderCaption": "Upload your photo",
+  "avatarCreator_uploaderDescription": "Click the frame to upload a photo and start creating",
+  "avatarCreator_yourImageCaption": "Your Photo",
+  "avatarCreator_selectIdeasTitle": "Choose {0} to {1} ideas to try",
+  "avatarCreator_selectedCount": "Selected: {0}/{1}",
+  "avatarCreator_notesPlaceholder": "e.g., warm tones, old film style...",
+  "avatarCreator_selectAtLeast": "Select at least {0} idea",
+  "avatarCreator_createButton": "Create Photos",
+  "avatarCreator_chooseOtherIdeas": "Choose Other Ideas",
+  "avatarCreator_regenPlaceholder": "e.g., add a lotus flower, wear a blue ao dai...",
+  "avatarCreator_randomConcept": "Random",
+  "avatarCreator_analyzing": "Analyzing...",
+  "avatarCreator_analysisError": "Could not analyze the image. Please try again.",
+  "avatarCreator_autoAnalysis": "Auto by Photo",
+  "avatarCreator_randomButton": "Randomize",
+  "avatarCreator_ideasByCategory": [
+    {
+        "category": "Proud Moments",
+        "ideas": ["Waving Ao Dai and red flag", "Bright smile next to the national flag", "Solemn flag salute at Ba Dinh Square", "Proud gaze towards the flag", "Strolling on a street full of flags and flowers", "Confident check-in at Lung Cu Flag Tower", "Hand in hand with a naval soldier", "Elegant beauty before Ho Chi Minh's Mausoleum", "Tears of happiness as the national anthem plays", "Sending love to the Spratly Islands milestone", "Girl with lotus bouquet and red flag", "Waving the flag of victory", "Small family with the national flag", "Everyday moment under the flag's shadow", "Red Ao Dai fluttering in the old town"]
+    },
+    { "category": "Symbols & Culture", "ideas": ["Red Ao Dai with yellow star", "Next to a pink lotus", "Dong Son drum patterns", "Wearing a traditional conical hat", "Small Vietnamese flag painted on cheek", "Holding a peach blossom branch on Tet", "Next to a yellow apricot blossom tree", "White Ao Dai of a schoolgirl", "Lion and dragon dance", "Playing the T'rung instrument", "Releasing flower lanterns", "Bat Trang ceramic artisan", "Beauty of a girl at the loom", "Holding a Mid-Autumn Festival lantern", "Water puppet art"] },
+    { "category": "History & Heroes", "ideas": ["Dien Bien Phu soldier", "The Trung Sisters", "Hung Kings founding the nation", "Youth volunteer", "Spratly Islands naval soldier", "Uncle Ho's soldier", "Guerrilla in the jungle", "The girl who opened the roads", "Indomitable spirit of the Tran Dynasty", "Saint Giong figure", "Heroine Vo Thi Sau", "Portrait from the Subsidy Era", "Liberation Army soldier", "Frontline civilian worker", "Border guard"] },
+    { "category": "Landscapes & Landmarks", "ideas": ["Amidst Sapa's terraced fields", "On a boat in Ha Long Bay", "In front of Hoan Kiem Lake, The Huc Bridge", "Exploring Son Doong Cave", "Golden ripe rice fields", "Beauty of Ha Giang's rocky plateau", "Sunset on Tam Giang Lagoon", "Blue sea of Phu Quoc", "Boating in Trang An, Ninh Binh", "Walking through Hoi An's ancient town", "Lung Cu Flag Tower", "Historic Independence Palace", "Notre Dame Cathedral of Saigon", "By the Mekong River", "Dreamy beauty of Da Lat"] },
+    { "category": "Cuisine & Life", "ideas": ["Enjoying Hanoi Pho", "Drinking Saigon iced milk coffee", "Making Banh Chung for Tet", "Street vendor in the old town", "Eating street-side Banh Mi", "Atmosphere of Cai Rang floating market", "Making conical hats", "Farmer in the field", "Fisherman pulling nets", "Family gathering", "With a legendary Dream motorbike", "Drinking iced tea on the sidewalk", "Vietnamese family meal", "Salt harvesting in Hon Khoi", "Growing coffee in the Central Highlands"] },
+    { "category": "Art & Creativity", "ideas": ["Propaganda poster style", "Lacquer painting style", "Chu Dau ceramic patterns", "Dong Ho painting style", "Light from Hoi An lanterns", "Calligraphy art", "Northwestern brocade patterns", "Old film photo style", "Champa sculpture art", "Beauty of silk painting", "Saigon Cyberpunk style", "Immersed in the Milky Way", "Ly Dynasty dragon patterns", "Modern neon lights", "Low-poly style"] },
+    { "category": "Sports & Pride", "ideas": ["Passionate football fan", "Moment of lifting the golden cup", "SEA Games athlete", "Cyclist", "Vovinam martial artist", "Professional football player", "Joy of victory", "Celebrating after a win", "Track and field athlete", "Olympic sports spirit", "Badminton player", "Female wushu athlete", "Red flag in the stands", "Swimmer", "Proud gold medalist"] },
+    { "category": "Future & Science", "ideas": ["Astronaut planting the Vietnamese flag", "Scientist in a laboratory", "Future technology engineer", "Smart city", "High-tech agriculture", "Medical robot doctor", "Vietnam solar energy", "Ocean exploration", "AI expert", "Green building architect"] }
+  ]
+}

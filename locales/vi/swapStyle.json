@@ -1,0 +1,22 @@
+
+{
+  "swapStyle_mainTitle": "Thay Đổi Phong Cách Ảnh",
+  "swapStyle_subtitle": "Tải ảnh và chọn một phong cách để biến đổi",
+  "swapStyle_uploaderCaptionContent": "Ảnh Nội dung",
+  "swapStyle_uploaderDescriptionContent": "Nhấn vào khung ảnh để tải lên ảnh cần thay đổi phong cách",
+  "swapStyle_uploaderCaptionStyle": "Ảnh Tham chiếu Phong cách",
+  "swapStyle_uploaderDescriptionStyle": "Tải ảnh tham chiếu (tùy chọn) để AI áp dụng phong cách.",
+  "swapStyle_contentCaption": "Ảnh Nội dung",
+  "swapStyle_styleLabel": "Phong cách",
+  "swapStyle_stylePlaceholder": "Tìm hoặc để trống cho Tự động...",
+  "swapStyle_strengthLabel": "Mức độ ảnh hưởng Style",
+  "swapStyle_notesPlaceholder": "Ví dụ: tập trung vào khuôn mặt, tông màu xanh...",
+  "swapStyle_creating": "Đang biến đổi...",
+  "swapStyle_createButton": "Áp dụng Style",
+  "swapStyle_autoStyleCaption": "Phong cách Tự động",
+  "swapStyle_regenDescription": "Thêm ghi chú để cải thiện ảnh theo phong cách",
+  "swapStyle_regenPlaceholder": "Ví dụ: thêm nhiều chi tiết hơn, màu sắc rực rỡ hơn...",
+  "swapStyle_styleReferenceActive": "Đang sử dụng phong cách từ ảnh tham chiếu. Lựa chọn Phong cách bị vô hiệu hóa.",
+  "swapStyle_realPhotoCaption": "Ảnh thật",
+  "swapStyle_convertToRealNote": "Chế độ chuyển đổi sang ảnh thật không chính xác trong một vài trường hợp, nên dùng các hình ảnh input đúng tỉ lệ người thật"
+}

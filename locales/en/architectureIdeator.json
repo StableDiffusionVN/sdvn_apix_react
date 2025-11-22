@@ -1,0 +1,51 @@
+
+{
+  "architectureIdeator_mainTitle": "Architecture Ideator",
+  "architectureIdeator_subtitle": "Turn your sketches into reality",
+  "architectureIdeator_uploaderCaption": "Upload sketch",
+  "architectureIdeator_uploaderDescription": "Click the frame to upload a drawing or 3D image",
+  "architectureIdeator_sketchCaption": "Sketch Image",
+  "architectureIdeator_optionsTitle": "Customize Idea",
+  "architectureIdeator_contextLabel": "Context",
+  "architectureIdeator_contextPlaceholder": "Search or enter context...",
+  "architectureIdeator_styleLabel": "Architectural Style",
+  "architectureIdeator_stylePlaceholder": "Search or enter style...",
+  "architectureIdeator_colorLabel": "Color Tone",
+  "architectureIdeator_colorPlaceholder": "Search or enter color tone...",
+  "architectureIdeator_lightingLabel": "Lighting",
+  "architectureIdeator_lightingPlaceholder": "Search or enter lighting...",
+  "architectureIdeator_notesLabel": "Additional Notes",
+  "architectureIdeator_notesPlaceholder": "e.g., add more greenery, glass materials...",
+  "architectureIdeator_createButton": "Create Image",
+  "architectureIdeator_regenTitle": "Refine Architectural Image",
+  "architectureIdeator_regenDescription": "Add notes to improve the image",
+  "architectureIdeator_regenPlaceholder": "e.g., add a swimming pool, wooden materials, night lighting...",
+  "architectureIdeator_styleReferenceCaption": "Style Reference Image",
+  "architectureIdeator_styleReferenceDescription": "Upload a reference image (optional) for the AI to automatically analyze and apply its style.",
+  "architectureIdeator_styleReferenceActive": "Using style from reference image. Options below are disabled.",
+  "architectureIdeator_contextOptions": [
+    "Auto",
+    { "group": "Urban", "options": ["Modern city", "Industrial zone", "Cyberpunk city", "Victorian London", "Brazilian favela"] },
+    { "group": "Natural", "options": ["Countryside", "Coastal", "Mountainous", "Desert", "Jungle", "Japanese garden", "Volcanic landscape"] },
+    { "group": "Sci-Fi & Fantasy", "options": ["Outer space", "Fairy tale world", "Underwater city", "City on clouds", "Ancient ruins", "Arctic station", "Mars colony", "Post-apocalyptic wasteland", "Mediterranean village"] }
+  ],
+  "architectureIdeator_styleOptions": [
+    "Auto",
+    { "group": "Modern", "options": ["Modern", "Minimalist", "Brutalist", "Deconstructivism", "Sustainable", "Biophilic/Organic", "Parametricism", "Industrial", "Modern Farmhouse", "Futuristic"] },
+    { "group": "Classical & Historic", "options": ["Indochine", "Classical", "Gothic", "Art Deco"] },
+    { "group": "Themed & Unique", "options": ["Tropical", "Cabin", "Scandinavian", "Mediterranean", "Steampunk", "Treehouse", "Cave architecture", "Container home"] }
+  ],
+  "architectureIdeator_colorOptions": [
+    "Auto",
+    { "group": "Color Temperature", "options": ["Warm tones", "Cool tones", "Neutral colors"] },
+    { "group": "Saturation & Contrast", "options": ["Monochromatic", "High contrast", "Soft pastels", "Vibrant colors"] },
+    { "group": "Themed Palettes", "options": ["Earthy tones", "Jewel tones", "Neon colors", "Rust & Metallic", "White & Wood", "Concrete gray", "Mint & Coral", "Navy & Brass", "Sunset palette", "Sunrise palette", "Oceanic colors"] },
+    { "group": "Special", "options": ["Sepia", "Black & White", "Rainbow"] }
+  ],
+  "architectureIdeator_lightingOptions": [
+    "Auto",
+    { "group": "Natural Light", "options": ["Natural daylight", "Golden hour", "Overcast, soft light", "Harsh sun, hard shadows"] },
+    { "group": "Artificial Light", "options": ["Night lighting", "Neon lighting", "Stage lighting", "Lantern light", "Studio lighting", "Uplighting"] },
+    { "group": "Dramatic & Stylized", "options": ["Ethereal lighting", "Volumetric rays", "Twinkling lights", "Flickering firelight", "Bioluminescent glow", "Film noir shadows", "Overexposed", "Dark and moody", "Water reflection", "Caustic shadows"] }
+  ]
+}

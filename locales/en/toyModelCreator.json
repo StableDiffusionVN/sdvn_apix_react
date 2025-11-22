@@ -1,0 +1,113 @@
+
+{
+  "toyModelCreator_mainTitle": "Figure Creator",
+  "toyModelCreator_subtitle": "Upload a photo of a character or object to start",
+  "toyModelCreator_uploaderCaption": "Upload original image",
+  "toyModelCreator_uploaderDescription": "Click the frame to upload a photo of a character, object...",
+  "toyModelCreator_optionsTitle": "Customize Model",
+  "toyModelCreator_conceptLabel": "Concept",
+  "toyModelCreator_notesPlaceholder": "e.g., model made of wood, figure box with effects...",
+  "toyModelCreator_createButton": "Create Model",
+  "toyModelCreator_regenTitle": "Refine Model",
+  "toyModelCreator_regenPlaceholder": "e.g., add neon light effects, ...",
+  "toyModelCreator_concepts": {
+    "desktop_model": {
+      "name": "Desk Scene Model",
+      "tabletIdentifier": "tablet",
+      "options": {
+        "computerType": "Computer Type",
+        "softwareType": "Software on Screen",
+        "boxType": "Figure Box Type",
+        "background": "Background"
+      },
+      "choices": {
+        "computerType": ["iMac Pro 5K Display", "Gaming PC (full RGB, water-cooled)", "Macbook Pro Laptop", "Alienware Gaming Laptop", "Microsoft Surface Studio", "Server Rack", "Vintage 80s Computer", "Ultrawide Curved Monitor", "Transparent Computer Concept", "iPad Pro Tablet", "Samsung Galaxy Tab S9 Ultra Tablet", "Wacom MobileStudio Pro Drawing Tablet"],
+        "softwareType_tablet": ["3D Wireframe Model", "Clay Render Model", "Blueprint", "Procreate App Interface", "Nomad Sculpt App Interface", "Infinite Painter App Interface", "Digital sketch", "Color palette", "Forger App Interface"],
+        "softwareType_desktop": ["3D Wireframe Model", "Clay Render Model", "Blueprint", "Blender Software Interface", "ZBrush Software Interface", "Autodesk Maya Interface", "Unreal Engine 5 Interface", "2D Concept Art of the Character", "Electronic Circuit Diagram", "Programming Code"],
+        "boxType": ["Standard Paper Box", "Transparent Blister Pack", "Transparent Polybag", "Collector's Edition Box", "Premium Laser-Engraved Wooden Box", "Minimalist Packaging", "Vintage Tin Box", "Mystery Box", "Acrylic Display Case", "Japanese-style Packaging", "LED Light-up Box"],
+        "background": ["Clean, minimalist workspace", "Messy artist's desk", "Sci-fi laboratory", "Carpenter's workshop", "Bookshelves in an old library", "Window overlooking Tokyo at night", "Spaceship control room", "Inside a museum", "Steampunk workshop", "Miniature Japanese garden", "Cyberpunk cityscape"]
+      }
+    },
+    "keychain": {
+      "name": "3D Keychain on Desk",
+      "options": {
+        "keychainMaterial": "Keychain Material",
+        "keychainStyle": "Keychain Style",
+        "accompanyingItems": "Accompanying Items",
+        "deskSurface": "Desk Surface"
+      },
+      "choices": {
+        "keychainMaterial": ["Transparent Acrylic", "Hard Enamel", "Metal", "Laser-Engraved Wood", "Soft Rubber"],
+        "keychainStyle": ["Chibi", "Pixel Art", "Low Poly", "Realistic"],
+        "accompanyingItems": ["Car key fob", "Pen and Notebook", "Coffee Mug", "Headphones", "Nothing"],
+        "deskSurface": ["Oak Wood", "Marble Surface", "Brushed Metal", "Cutting Mat", "Felt Pad"]
+      }
+    },
+    "gachapon": {
+      "name": "'Gachapon' Model",
+      "options": {
+        "capsuleColor": "Capsule Color",
+        "modelFinish": "Model Finish",
+        "capsuleContents": "Items in Capsule",
+        "displayLocation": "Display Location"
+      },
+      "choices": {
+        "capsuleColor": ["Transparent", "Blue & White", "Yellow & Orange", "Red & White", "Black & Gold (Mystery)"],
+        "modelFinish": ["Glossy Paint", "Matte Paint", "Metallic Effect", "Transparent Plastic", "Glow-in-the-dark"],
+        "capsuleContents": ["Model only", "Model and display base", "Model and small accessories"],
+        "displayLocation": ["Next to a Gachapon machine", "On a collector's shelf", "In the palm of a hand", "On a desk"]
+      }
+    },
+    "miniature": {
+      "name": "Miniature on Pedestal",
+      "options": {
+        "miniatureMaterial": "Miniature Material",
+        "baseMaterial": "Base Material",
+        "baseShape": "Base Shape",
+        "lightingStyle": "Lighting Style"
+      },
+      "choices": {
+        "miniatureMaterial": ["Resin", "Polymer Clay", "Bronze", "Marble", "Crystal", "Wood"],
+        "baseMaterial": ["Walnut Wood", "Black Marble", "Concrete", "Transparent Acrylic Base", "Natural Stone"],
+        "baseShape": ["Circular", "Square", "Hexagonal", "Natural (rock slab, wood slice)"],
+        "lightingStyle": ["Soft, 3-point studio lighting", "Top-down spotlight", "Natural window light", "Ethereal uplighting"]
+      }
+    },
+    "crafting_model": {
+      "name": "Crafting a Model",
+      "options": {
+        "modelType": "Model Type",
+        "blueprintType": "Blueprint Type",
+        "background": "Background",
+        "characterMood": "Character's Mood"
+      },
+      "choices": {
+        "modelType": [
+          "Wooden statue", "Stone statue", "Glass statue", "Painted figurine", "Assembly kit (Gundam style)", "Clay statue", "Papercraft model", "3D printed model", "Metal statue", "Wool doll"
+        ],
+        "blueprintType": [
+          "On a chalkboard", "Pencil drawing on paper", "Technical blueprint", "Watercolor perspective drawing", "3D model on a computer screen", "Sketch on a tablet", "Design on ancient parchment", "Detailed assembly diagram", "3D wireframe model", "Graffiti plan on a wall"
+        ],
+        "background": [
+          "Modern technical workshop", "Rustic carpentry workshop", "Art studio", "Futuristic laboratory", "Ancient library/study", "Blacksmith's forge", "Messy garage", "Minimalist design room", "Stone sculptor's studio", "Industrial loft"
+        ],
+        "characterMood": [
+          "Intensely focused", "Happy and proud", "Pensive and thoughtful", "Meticulous and careful", "Passionate and creative", "Slightly confused", "Smiling with satisfaction", "Serious and professional", "Mischievous and unconventional", "Tired but fulfilled"
+        ]
+      }
+    },
+    "pokemon_model": {
+      "name": "Pokémon Model",
+      "options": {
+        "pokeballType": "Poké Ball Type",
+        "evolutionDisplay": "Evolution Display",
+        "modelStyle": "Model Style"
+      },
+      "choices": {
+        "pokeballType": ["Poké Ball (standard)", "Great Ball", "Ultra Ball", "Master Ball", "Premier Ball", "Safari Ball"],
+        "evolutionDisplay": ["One evolution stage", "Full evolution chain", "None"],
+        "modelStyle": ["Realistic", "Chibi / Nendoroid", "Funko Pop Style", "Clay Model", "Low Poly", "Pixel Art"]
+      }
+    }
+  }
+}

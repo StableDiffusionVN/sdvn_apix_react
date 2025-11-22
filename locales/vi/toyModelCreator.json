@@ -1,0 +1,113 @@
+
+{
+  "toyModelCreator_mainTitle": "Tạo Mô Hình Figure",
+  "toyModelCreator_subtitle": "Tải lên ảnh một nhân vật hoặc vật thể để bắt đầu",
+  "toyModelCreator_uploaderCaption": "Tải ảnh gốc",
+  "toyModelCreator_uploaderDescription": "Nhấn vào khung ảnh để tải lên ảnh nhân vật, vật thể...",
+  "toyModelCreator_optionsTitle": "Tùy chỉnh mô hình",
+  "toyModelCreator_conceptLabel": "Concept",
+  "toyModelCreator_notesPlaceholder": "Ví dụ: mô hình làm bằng gỗ, hộp figure có hiệu ứng...",
+  "toyModelCreator_createButton": "Tạo mô hình",
+  "toyModelCreator_regenTitle": "Tinh chỉnh mô hình",
+  "toyModelCreator_regenPlaceholder": "Ví dụ: thêm hiệu ứng ánh sáng neon, ...",
+  "toyModelCreator_concepts": {
+    "desktop_model": {
+      "name": "Mô hình bên bàn máy tính",
+      "tabletIdentifier": "máy tính bảng",
+      "options": {
+        "computerType": "Loại máy tính",
+        "softwareType": "Phần mềm trên màn hình",
+        "boxType": "Loại hộp Figure",
+        "background": "Phông nền"
+      },
+      "choices": {
+        "computerType": ["iMac Pro màn hình 5K", "PC Gaming (full LED RGB, tản nhiệt nước)", "Laptop Macbook Pro", "Laptop Gaming Alienware", "Microsoft Surface Studio", "Dàn máy tính server", "Máy tính cổ điển (phong cách 80s)", "Màn hình cong siêu rộng", "Concept máy tính trong suốt", "Máy tính bảng iPad Pro", "Máy tính bảng Samsung Galaxy Tab S9 Ultra", "Máy tính bảng vẽ Wacom MobileStudio Pro"],
+        "softwareType_tablet": ["Mô hình Wireframe 3D", "Mô hình đất sét (Clay render)", "Bản thiết kế kỹ thuật (Blueprint)", "Giao diện ứng dụng Procreate", "Giao diện ứng dụng Nomad Sculpt", "Giao diện ứng dụng Infinite Painter", "Bản phác thảo kỹ thuật số (Digital sketch)", "Bảng màu (Color palette)", "Giao diện ứng dụng Forger"],
+        "softwareType_desktop": ["Mô hình Wireframe 3D", "Mô hình đất sét (Clay render)", "Bản thiết kế kỹ thuật (Blueprint)", "Giao diện phần mềm Blender", "Giao diện phần mềm ZBrush", "Giao diện Autodesk Maya", "Giao diện Unreal Engine 5", "Concept art 2D của nhân vật", "Sơ đồ mạch điện tử", "Mã code lập trình"],
+        "boxType": ["Hộp giấy tiêu chuẩn", "Vỉ nhựa trong suốt (Blister pack)", "Túi nilon trong suốt (Transparent polybag)", "Hộp phiên bản sưu tầm", "Hộp gỗ cao cấp khắc laser", "Bao bì tối giản", "Hộp thiếc vintage", "Hộp bí ẩn (Mystery box)", "Hộp trưng bày Acrylic", "Bao bì phong cách Nhật Bản", "Hộp phát sáng (LED)"],
+        "background": ["Không gian làm việc sạch sẽ, tối giản", "Bàn làm việc của nghệ sĩ (bừa bộn)", "Phòng thí nghiệm khoa học viễn tưởng", "Xưởng của thợ mộc", "Giá sách trong thư viện cổ", "Cửa sổ nhìn ra thành phố Tokyo ban đêm", "Phòng điều khiển tàu vũ trụ", "Bên trong một viện bảo tàng", "Bàn làm việc Steampunk", "Khu vườn Nhật Bản thu nhỏ", "Bối cảnh Cyberpunk"]
+      }
+    },
+    "keychain": {
+      "name": "Móc khoá 3D trên bàn",
+      "options": {
+        "keychainMaterial": "Chất liệu móc khoá",
+        "keychainStyle": "Kiểu móc khoá",
+        "accompanyingItems": "Vật dụng đi kèm",
+        "deskSurface": "Bề mặt bàn"
+      },
+      "choices": {
+        "keychainMaterial": ["Nhựa Acrylic trong suốt", "Men cứng (Hard Enamel)", "Kim loại", "Gỗ khắc laser", "Cao su mềm"],
+        "keychainStyle": ["Chibi", "Pixel Art", "Low Poly", "Hiện thực (Realistic)"],
+        "accompanyingItems": ["Chùm chìa khoá xe", "Bút và Sổ tay", "Cốc cà phê", "Tai nghe", "Không có gì"],
+        "deskSurface": ["Gỗ sồi", "Mặt đá cẩm thạch", "Kim loại xước", "Bàn cutting mat", "Vải nỉ"]
+      }
+    },
+    "gachapon": {
+      "name": "Mô hình 'Gachapon'",
+      "options": {
+        "capsuleColor": "Màu viên nang",
+        "modelFinish": "Hoàn thiện mô hình",
+        "capsuleContents": "Vật phẩm trong nang",
+        "displayLocation": "Nơi trưng bày"
+      },
+      "choices": {
+        "capsuleColor": ["Trong suốt", "Xanh dương & Trắng", "Vàng & Cam", "Đỏ & Trắng", "Đen & Vàng (Bí ẩn)"],
+        "modelFinish": ["Sơn bóng (Glossy)", "Sơn mờ (Matte)", "Hiệu ứng kim loại", "Nhựa trong suốt", "Phát sáng trong đêm"],
+        "capsuleContents": ["Chỉ mô hình", "Mô hình và đế trưng bày", "Mô hình và phụ kiện nhỏ"],
+        "displayLocation": ["Bên cạnh máy Gachapon", "Trên kệ sưu tầm", "Trong lòng bàn tay", "Trên bàn làm việc"]
+      }
+    },
+    "miniature": {
+      "name": "Tượng nhỏ trên đế",
+      "options": {
+        "miniatureMaterial": "Chất liệu tượng",
+        "baseMaterial": "Chất liệu đế",
+        "baseShape": "Hình dạng đế",
+        "lightingStyle": "Kiểu chiếu sáng"
+      },
+      "choices": {
+        "miniatureMaterial": ["Nhựa Resin", "Đất sét Polymer", "Đồng", "Đá cẩm thạch", "Pha lê", "Gỗ"],
+        "baseMaterial": ["Gỗ óc chó", "Đá cẩm thạch đen", "Bê tông", "Đế Acrylic trong suốt", "Đá tự nhiên"],
+        "baseShape": ["Tròn", "Vuông", "Lục giác", "Tự nhiên (phiến đá, khúc gỗ)"],
+        "lightingStyle": ["Ánh sáng studio (mềm, 3 điểm)", "Đèn chiếu điểm từ trên (Spotlight)", "Ánh sáng tự nhiên từ cửa sổ", "Ánh sáng huyền ảo từ dưới lên"]
+      }
+    },
+    "crafting_model": {
+      "name": "Chế tạo mô hình",
+      "options": {
+        "modelType": "Loại mô hình",
+        "blueprintType": "Loại bản vẽ",
+        "background": "Phông nền",
+        "characterMood": "Tâm trạng nhân vật"
+      },
+      "choices": {
+        "modelType": [
+          "Tượng gỗ", "Tượng đá", "Tượng thuỷ tinh", "Tượng tô màu", "Mô hình lắp ráp (Gundam style)", "Tượng đất sét", "Mô hình giấy (Papercraft)", "Mô hình in 3D", "Tượng kim loại", "Búp bê len"
+        ],
+        "blueprintType": [
+          "Trên bảng phấn", "Bản vẽ chì trên giấy", "Bản vẽ kỹ thuật (Blueprint)", "Bản vẽ phối cảnh màu nước", "Mô hình 3D trên màn hình máy tính", "Phác thảo trên máy tính bảng", "Thiết kế trên giấy da cổ", "Sơ đồ lắp ráp chi tiết", "Mô hình wireframe 3D", "Bản vẽ graffiti trên tường"
+        ],
+        "background": [
+          "Xưởng kỹ thuật hiện đại", "Xưởng gỗ mộc mạc", "Phòng studio nghệ thuật", "Phòng thí nghiệm tương lai", "Thư viện/phòng làm việc cổ kính", "Xưởng rèn của thợ rèn", "Gara bừa bộn", "Phòng thiết kế tối giản", "Xưởng điêu khắc đá", "Gác xép công nghiệp (Industrial loft)"
+        ],
+        "characterMood": [
+          "Tập trung cao độ", "Vui vẻ và tự hào", "Trầm ngâm suy tư", "Tỉ mỉ và cẩn thận", "Đam mê, sáng tạo", "Hơi bối rối", "Mỉm cười hài lòng", "Nghiêm túc, chuyên nghiệp", "Tinh nghịch, phá cách", "Mệt mỏi nhưng mãn nguyện"
+        ]
+      }
+    },
+    "pokemon_model": {
+      "name": "Mô hình Pokémon",
+      "options": {
+        "pokeballType": "Loại Poké Ball",
+        "evolutionDisplay": "Hiển thị tiến hoá",
+        "modelStyle": "Phong cách mô hình"
+      },
+      "choices": {
+        "pokeballType": ["Poké Ball (thường)", "Great Ball", "Ultra Ball", "Master Ball", "Premier Ball", "Safari Ball"],
+        "evolutionDisplay": ["Một dạng tiến hoá", "Toàn bộ chuỗi tiến hoá", "Không hiển thị"],
+        "modelStyle": ["Chân thực (Realistic)", "Chibi / Nendoroid", "Phong cách Funko Pop", "Mô hình đất sét (Clay)", "Low Poly", "Pixel Art"]
+      }
+    }
+  }
+}

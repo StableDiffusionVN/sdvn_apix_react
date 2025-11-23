@@ -68,7 +68,7 @@ const AccordionHeader: React.FC<{ title: string; isOpen: boolean; onClick: () =>
     return (
         <button onClick={onClick} className="w-full flex justify-between items-center p-3 bg-neutral-800 hover:bg-neutral-700/80 transition-colors rounded-t-lg" aria-expanded={isOpen}>
             <h4 className="font-semibold text-neutral-200">{title}</h4>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 text-neutral-400">
                 {rightContent}
                 <motion.div animate={{ rotate: isOpen ? 180 : 0 }}>
                     <AccordionArrowIcon className="h-5 w-5" />
@@ -112,7 +112,7 @@ export const LayerComposerSidebar: React.FC<LayerComposerSidebarProps> = (props)
         <aside className="w-1/3 max-w-sm flex flex-col bg-neutral-900/50 p-6 border-r border-white/10">
             <div className="flex justify-between items-center mb-6 flex-shrink-0">
                 <h3 className="base-font font-bold text-2xl text-yellow-400">{t('layerComposer_title')}</h3>
-                <button onClick={onHide} className="p-2 rounded-full hover:bg-white/10 transition-colors" aria-label="Đóng">
+                <button onClick={onHide} className="p-2 rounded-full hover:bg-white/10 transition-colors text-neutral-400 hover:text-white" aria-label="Đóng">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
                 </button>
             </div>

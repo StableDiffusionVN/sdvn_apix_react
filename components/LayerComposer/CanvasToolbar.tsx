@@ -26,7 +26,7 @@ export const CanvasToolbar: React.FC<CanvasToolbarProps> = ({
 }) => {
     return (
         <div
-            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1 p-1.5 rounded-lg bg-neutral-900/60 backdrop-blur-sm border border-white/10 shadow-lg"
+            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1 p-1.5 rounded-lg bg-neutral-900/60 backdrop-blur-sm border border-white/10 shadow-lg text-neutral-200"
             onPointerDown={e => e.stopPropagation()}
         >
             <button onClick={onUndo} disabled={!canUndo} title="Undo (Cmd+Z)" className="p-2 rounded-md hover:bg-neutral-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"><UndoIcon className="h-5 w-5" strokeWidth={1.5} /></button>

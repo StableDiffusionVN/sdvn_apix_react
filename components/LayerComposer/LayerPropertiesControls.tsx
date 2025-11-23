@@ -98,7 +98,7 @@ export const LayerPropertiesControls: React.FC<LayerPropertiesControlsProps> = (
         <div className="p-3 space-y-4">
              <div className="grid grid-cols-2 gap-3 text-sm">
                 <div>
-                    <label htmlFor={`layer-width-${layer.id}`}>{t('layerComposer_width')}</label>
+                    <label htmlFor={`layer-width-${layer.id}`} className="block text-sm font-medium text-neutral-300 mb-1">{t('layerComposer_width')}</label>
                     <input
                         id={`layer-width-${layer.id}`}
                         type="number"
@@ -112,7 +112,7 @@ export const LayerPropertiesControls: React.FC<LayerPropertiesControlsProps> = (
                     />
                 </div>
                 <div>
-                    <label htmlFor={`layer-height-${layer.id}`}>{t('layerComposer_height')}</label>
+                    <label htmlFor={`layer-height-${layer.id}`} className="block text-sm font-medium text-neutral-300 mb-1">{t('layerComposer_height')}</label>
                     <input
                         id={`layer-height-${layer.id}`}
                         type="number"

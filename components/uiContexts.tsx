@@ -2,7 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
 */
-import React, { useState, useEffect, useCallback, useContext, createContext } from 'react';
+import React, { useState, useEffect, useCallback, useContext, createContext, useRef } from 'react';
 import toast from 'react-hot-toast';
 import {
     type ImageToEdit, type ViewState, type AnyAppState, type Theme,
@@ -13,6 +13,32 @@ import {
 } from './uiTypes';
 
 import * as fileStorage from '../services/fileStorage';
+
+const STORAGE_KEYS = {
+    modelVersion: 'apix_model_version',
+    imageResolution: 'apix_image_resolution',
+    activeView: 'apix_active_view',
+};
+
+const isValidModelVersion = (value: string | null): value is ModelVersion => {
+    return value === 'v2' || value === 'v3';
+};
+
+const isValidImageResolution = (value: string | null): value is ImageResolution => {
+    return value === '1K' || value === '2K' || value === '4K';
+};
+
+const getStoredModelVersion = (): ModelVersion => {
+    if (typeof window === 'undefined') return 'v2';
+    const stored = localStorage.getItem(STORAGE_KEYS.modelVersion);
+    return isValidModelVersion(stored) ? stored : 'v2';
+};
+
+const getStoredImageResolution = (): ImageResolution => {
+    if (typeof window === 'undefined') return '1K';
+    const stored = localStorage.getItem(STORAGE_KEYS.imageResolution);
+    return isValidImageResolution(stored) ? stored : '1K';
+};
 
 // --- Auth Context ---
 interface Account {
@@ -218,10 +244,26 @@ export const AppControlProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     const [translations, setTranslations] = useState<Record<string, any>>({});
     const [settings, setSettings] = useState<Settings | null>(null);
     
-    const [modelVersion, setModelVersion] = useState<ModelVersion>('v2');
-    const [imageResolution, setImageResolution] = useState<ImageResolution>('1K');
+    const [modelVersion, setModelVersion] = useState<ModelVersion>(getStoredModelVersion);
+    const [imageResolution, setImageResolution] = useState<ImageResolution>(getStoredImageResolution);
 
     const currentView = viewHistory[historyIndex];
+
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        localStorage.setItem(STORAGE_KEYS.modelVersion, modelVersion);
+    }, [modelVersion]);
+
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        localStorage.setItem(STORAGE_KEYS.imageResolution, imageResolution);
+    }, [imageResolution]);
+
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        localStorage.setItem(STORAGE_KEYS.activeView, currentView.viewId);
+    }, [currentView.viewId]);
+    const restoredViewRef = useRef(false);
 
     useEffect(() => {
         const fetchTranslations = async () => {
@@ -496,6 +538,25 @@ export const AppControlProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         setViewHistory(newHistory);
         setHistoryIndex(newHistory.length - 1);
     }, [viewHistory, historyIndex]);
+    
+    useEffect(() => {
+        if (restoredViewRef.current) return;
+        if (typeof window === 'undefined') return;
+        if (!settings) return;
+
+        const savedViewId = localStorage.getItem(STORAGE_KEYS.activeView);
+        if (!savedViewId || savedViewId === currentView.viewId) {
+            restoredViewRef.current = true;
+            return;
+        }
+
+        const isValidView = savedViewId === 'home' || settings.apps.some(app => app.id === savedViewId);
+        if (isValidView) {
+            navigateTo(savedViewId);
+        }
+
+        restoredViewRef.current = true;
+    }, [settings, currentView.viewId, navigateTo]);
     
     const handleStateChange = useCallback((newAppState: AnyAppState) => {
         const current = viewHistory[historyIndex];

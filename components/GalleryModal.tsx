@@ -79,6 +79,11 @@ const GalleryModal: React.FC<GalleryModalProps> = ({ isOpen, onClose, images }) 
         return images.indexOf(url);
     };
 
+    useEffect(() => {
+        setSelectedIndices([]);
+        setIsSelectionMode(false);
+    }, [activeFilter]);
+
     const handleDownloadAll = () => {
         const imagesToZip: ImageForZip[] = images.map((url, index) => ({
             url,

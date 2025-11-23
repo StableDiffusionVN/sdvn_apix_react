@@ -79,6 +79,3 @@ sdvn_apix_react/
 - Group: [SDVN - Cộng đồng AI Art](https://www.facebook.com/groups/stablediffusion.vn/)
 - Website: [sdvn.vn](https://www.sdvn.vn)
 - Donate: [sdvn.vn/donate](https://stablediffusion.vn/donate/)
-
----
-Developed with ❤️ by SDVN Team.

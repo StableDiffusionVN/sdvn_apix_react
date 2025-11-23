@@ -74,5 +74,11 @@ sdvn_apix_react/
 *   **Cổng (Port):** Mặc định Frontend chạy ở port `5173` và Backend ở port `3001`. Nếu các cổng này bị chiếm dụng, bạn có thể cần tắt ứng dụng đang chạy hoặc đổi cổng trong cấu hình.
 *   **Dữ liệu:** Ảnh và dữ liệu được lưu trong thư mục `server/gallery`, `server/history`, và `server/data`. Hãy sao lưu các thư mục này nếu cần.
 
+### Người tạo
+- Người tạo: [Phạm Hưng](https://www.facebook.com/phamhungd/)
+- Group: [SDVN - Cộng đồng AI Art](https://www.facebook.com/groups/stablediffusion.vn/)
+- Website: [sdvn.vn](https://www.sdvn.vn)
+- Donate: [sdvn.vn/donate](https://stablediffusion.vn/donate/)
+
 ---
 Developed with ❤️ by SDVN Team.

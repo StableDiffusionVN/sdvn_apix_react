@@ -339,9 +339,21 @@ function App() {
                     >
                         v3
                     </button>
+                    <button 
+                        onClick={() => handleModelVersionChange('v3.1')} 
+                        className={cn(
+                            'px-3 py-0.5 rounded-full text-xs font-bold transition-colors duration-200', 
+                            modelVersion === 'v3.1' 
+                                ? 'bg-yellow-400 text-black' 
+                                : 'text-neutral-300 hover:bg-white/10'
+                        )}
+                        aria-pressed={modelVersion === 'v3.1'}
+                    >
+                        v3.1
+                    </button>
                 </div>
 
-                {modelVersion === 'v3' && (
+                {(modelVersion === 'v3' || modelVersion === 'v3.1') && (
                     <div className="flex items-center gap-1 bg-black/30 rounded-full p-1 text-sm text-neutral-200 backdrop-blur-sm border border-white/10">
                         {(['1K', '2K', '4K'] as ImageResolution[]).map(res => (
                             <button 

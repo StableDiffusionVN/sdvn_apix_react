@@ -8,7 +8,7 @@ import ai from './client'; // Import the shared client instance
 
 // --- Global Configuration Store ---
 interface GlobalConfig {
-    modelVersion: 'v2' | 'v3';
+    modelVersion: 'v2' | 'v3' | 'v3.1';
     imageResolution: '1K' | '2K' | '4K';
 }
 
@@ -17,14 +17,14 @@ let globalConfig: GlobalConfig = {
     imageResolution: '1K'
 };
 
-export const setGlobalModelConfig = (version: 'v2' | 'v3', resolution: '1K' | '2K' | '4K') => {
+export const setGlobalModelConfig = (version: 'v2' | 'v3' | 'v3.1', resolution: '1K' | '2K' | '4K') => {
     globalConfig = { modelVersion: version, imageResolution: resolution };
 };
 
 export const getModelConfig = () => globalConfig;
 
-export const getTextModel = () => globalConfig.modelVersion === 'v3' ? 'gemini-3-pro-preview' : 'gemini-2.5-flash';
-export const getImageModel = () => globalConfig.modelVersion === 'v3' ? 'gemini-3-pro-image-preview' : 'gemini-2.5-flash-image';
+export const getTextModel = () => (globalConfig.modelVersion === 'v3' || globalConfig.modelVersion === 'v3.1') ? 'gemini-3.1-pro-preview' : 'gemini-2.5-flash';
+export const getImageModel = () => (globalConfig.modelVersion === 'v3' || globalConfig.modelVersion === 'v3.1') ? 'gemini-3-pro-image-preview' : 'gemini-2.5-flash-image';
 
 // --- Centralized Error Processor ---
 export function processApiError(error: unknown): Error {
@@ -130,7 +130,7 @@ export async function callGeminiWithRetry(parts: object[], config: any = {}): Pr
     let lastError: Error | null = null;
 
     const model = getImageModel();
-    const extraConfig = globalConfig.modelVersion === 'v3' 
+    const extraConfig = (globalConfig.modelVersion === 'v3' || globalConfig.modelVersion === 'v3.1')
         ? { imageConfig: { imageSize: globalConfig.imageResolution, ...config.imageConfig } }
         : {};
 

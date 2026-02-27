@@ -28,3 +28,4 @@ yarn-error.log*
 # Environment variables
 .env
 .env.production
+.DS_Store

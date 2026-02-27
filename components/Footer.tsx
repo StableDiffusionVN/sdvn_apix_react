@@ -8,7 +8,7 @@ import { useAppControls, type Theme, THEME_DETAILS } from './uiUtils';
 import ApiSettingsModal from './ApiSettingsModal';
 
 const Footer: React.FC<{}> = () => {
-    const { theme, handleThemeChange, t } = useAppControls();
+    const { theme, handleThemeChange, t, modelVersion } = useAppControls();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [isSettingsOpen, setIsSettingsOpen] = useState(false);
     const dropdownRef = useRef<HTMLDivElement>(null);
@@ -24,6 +24,12 @@ const Footer: React.FC<{}> = () => {
         document.addEventListener('mousedown', handleClickOutside);
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
+
+    useEffect(() => {
+        if (modelVersion === 'v3' || modelVersion === 'v3.1') {
+            setIsSettingsOpen(true);
+        }
+    }, [modelVersion]);
 
     const handleSelectTheme = (newTheme: Theme) => {
         handleThemeChange(newTheme);

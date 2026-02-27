@@ -21,7 +21,7 @@ const STORAGE_KEYS = {
 };
 
 const isValidModelVersion = (value: string | null): value is ModelVersion => {
-    return value === 'v2' || value === 'v3';
+    return value === 'v2' || value === 'v3' || value === 'v3.1';
 };
 
 const isValidImageResolution = (value: string | null): value is ImageResolution => {
